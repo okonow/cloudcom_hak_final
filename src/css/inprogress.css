@@ -1,0 +1,17 @@
+.inprogress-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(147, 59, 0, 0.63);
+}
+
+.inprogress-container div {
+    margin: 0;
+    padding: 0;
+}
+.inprogress-container img {
+    width: 100vw;
+    height: 100vh;
+}

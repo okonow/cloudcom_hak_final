@@ -1,0 +1,16 @@
+.my-task-container {
+    display: flex;
+    flex-flow:column;
+}
+
+.my-task-container .b :hover {
+    color: rgb(255, 255, 255);
+    background-color: blue;
+   
+  }
+  
+  
+  .my-task-container .a {
+    padding: 20px;
+  }
+

@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Geneva:300);
+
+
+:root {
+  --border-radius: 15px;
+  --font: Courier;
+  --text-color: rgba(255, 255, 255, 0.8);
+}
+/*login form*/
+
+body, html {
+  padding: 0;
+  margin: 0;
+  /* background-color: black; */
+
+}
+
+
+.sign-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.login-register-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  filter: blur(5px);
+}
+
+.login-register-background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.login-form {
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: var(--font);
+  font-weight: bold;
+  background-color: rgba(89, 89, 89, 0.3);
+  padding: 2rem;
+  border-radius: 50px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.login-form h2 {
+  margin-top: 0;
+}
+
+.login-form form {
+  overflow:hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%; 
+}
+
+.login-form div {
+  margin-bottom: 1rem;
+}
+
+.login-form label {
+  color: white;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.login-form input {
+  padding: 0.5rem;
+  border-radius: var(--border-radius);
+  border: 1px solid #ccc;
+}
+
+.login-form button {
+  
+  text-transform: uppercase;
+  outline: 0;
+  background: rgb(249, 126, 19, 0.7);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius: var(--border-radius);
+  font-family: var(--font);
+  font-weight: bold;
+}
+
+.login-form button:hover,.form button:active,.form button:focus {
+  background: rgb(255, 213, 0);
+  color:black;
+}
+
+.login-form label {
+  color: var(--text-color);
+}
+
+.login-form img {
+  border-radius: 50px;
+  margin: 50px;
+  width: 250px;
+  height: 250px;
+}
+
+.login-form .login-img {
+  margin:0;
+}
+
+.login-form p {
+  max-width: 200px;
+  margin: 10px;
+}
+
+.login-form a {
+  color: rgb(247, 170, 103);
+}
+
+.login-form a:hover, .form a:active,.form a:focus {
+ color: rgb(255, 213, 0);
+}
+
+.login-form .register-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form input {
+  font-family: var(--font);
+}
+
