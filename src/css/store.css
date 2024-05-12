@@ -1,0 +1,124 @@
+.store-background {
+z-index: -2;
+height: 500vh;
+  background-repeat: repeat;
+  background-image: url(../assets/background3.png);
+  
+  z-index: -1;
+  top: 0;
+  left: 0;
+
+}
+
+
+.store-background .revolver-containerf {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Чтобы клики проходили сквозь контейнер */
+    z-index: -1; /* Чтобы контейнер был под всеми элементами страницы */
+}
+
+/* Стили для изображения револьвера */
+.store-background .revolver {
+    position: absolute;
+    width: 1500px; /* Размер револьвера, измените по вашему усмотрению */
+    height: auto;
+    animation: rotate 60s linear infinite; /* Анимация вращения, 4 секунды на один оборот */
+    filter:opacity(0.5) /* Гладкое изменение фильтра */
+    
+}
+
+#first {
+    
+    top: 25%; left: 0%;
+    pointer-events: none;
+    }
+
+
+
+/* Ключевая анимация для вращения */
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+
+
+.store-container .navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    background-color: var(--opacity-color);
+    margin-bottom: 2vh;
+    
+  }
+  
+  .store-container .navbar .now-page h1, 
+  .store-container .navbar .other-page h1 { 
+    padding-inline: 10px;
+    padding-block: 3vh;
+    margin: 0;
+  
+  }
+  
+  .store-container .navbar .other-page,
+  .store-container .navbar .now-page :hover 
+  {
+    background-color: var(--opacity-color);
+    cursor: pointer;
+  }
+
+  .store-container .navbar .exit-icon :hover {
+    cursor: pointer;
+    
+  }
+  
+  
+  .store-container .navbar .exit-icon img {
+    position: relative;
+    height: 10vh;
+  }
+
+  .store-container .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+
+  .store-container .product {
+    width: 23%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .store-container .product img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .store-container .product h3 {
+    margin-top: 10px;
+  }
+  
+  .store-container .product button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .store-container .product button:hover {
+    background-color: #555;
+  }

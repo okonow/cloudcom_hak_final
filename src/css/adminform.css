@@ -1,0 +1,41 @@
+.adminform-container {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  font-family: var(--font);
+}
+
+.adminform-background {
+  height: 500vh;
+  background-repeat: repeat;
+  background-color: rgba(255, 186, 130, 0.879);
+}
+
+.adminform-container .navbar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  background-color: var(--opacity-color);
+  margin-bottom: 2vh;
+  
+}
+
+.adminform-container .navbar .now-page h1, 
+.adminform-container .navbar .other-page h1 { 
+  padding-inline: 10px;
+  padding-block: 3vh;
+  margin: 0;
+
+}
+
+.adminform-container .navbar .other-page :hover 
+{
+  background-color: var(--opacity-color);
+  cursor: pointer;
+}
+
+.adminform-container .content .table , th, td {
+  border: 1px solid grey;
+}

@@ -118,6 +118,8 @@ export const Register = () =>
 
   const goToLogin = () => navigate('/');
   const goToMainform = () => navigate('/mainform');
+
+
   const handleRegister = async (event) => {
     event.preventDefault();
   
@@ -160,7 +162,7 @@ export const Register = () =>
         <div className='login-img'>
         <img src="src\assets\login-pictures\login-img-background.jpg" alt="Cat entered the space"/>
         </div>
-        <form>
+        <form onSubmit={handleRegister}>
           <h2>Вход</h2>
           <div className='register-inputs'>
             <div>

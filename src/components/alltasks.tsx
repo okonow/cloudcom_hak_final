@@ -11,7 +11,7 @@ interface Task {
 const tasks1: Task[] = [
   { id: 1, title: 'Task 1', description: 'Description 1' },
   { id: 2, title: 'Task 2', description: 'Description 2' },
-  { id: 3, title: 'Task 3', description: 'Description 3' },
+  { id: 3, title: 'Task 3', description: 'Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description 1' },
 ];
 
 export const AllTasks: React.FC = () => {
@@ -43,6 +43,31 @@ export const AllTasks: React.FC = () => {
   const [data, setData] = useState<any[]>([]);
 
   useEffect(() => {
+      const accessToken = localStorage.getItem('accessToken');
+
+      const fetchData = async () => {
+        try {
+          const response = await fetch('/api/Job/GetFreeJobsInDepartment', {
+            method: 'GET',
+            headers: {
+              departmentId: '1',
+              'Authorization': `Bearer ${accessToken}`
+            }
+          });
+  
+          if (response.ok) {
+            const data = await response.json();
+            setData(data);
+          } else {
+            throw new Error('Ошибка при выполнении запроса');
+          }
+        } catch (error) {
+          console.error('Ошибка:', error);
+        }
+      };
+  
+      fetchData();
+
     setTasks([...tasks1]);
     fetchData();
   }, []); // Пустой массив зависимостей гарантирует, что эффект выполнится только один раз после первой отрисовки компонента
@@ -58,69 +83,59 @@ export const AllTasks: React.FC = () => {
   };
 
   return (
-    <div className='mytasks-container'>
-    <div className='alltasks-container'>
-      <div className='navbar'>
-      <div className='exit-icon' onClick={gotoMainForm}>
-                <img src="src\assets\exit-icon.png" alt=""/>
-            </div>
-        <div className='now-page-title'>
-          <h1>Все задачи</h1>
-      </div>
-      <div className='other-page-title' onClick={gotoMyTasks}>
-       <h1>Мои задачи</h1>
-      </div>
-      </div>
-      
-      <form onSubmit={handleSubmit}>
-        <div className='input-fields'>
-          <div className='input-field'>
-            
-            <input
-              type="text"
-              value={newTitle}
-              onChange={(e) => setNewTitle(e.target.value)}
-              placeholder="Введите название задачи"
-            />
+    
+    <div className='alltasks-background'>
+      <div className='alltasks-container'>
+        <div className='navbar'>
+          <div className='exit-icon' onClick={gotoMainForm}>
+            <img src="src\assets\exit-icon.png" alt=""/>
           </div>
-          
-          <div className='input-field'>
-            <textarea
-              value={newDescription}
-              onChange={(e) => setNewDescription(e.target.value)}
-              placeholder="Введите описание задачи"
-            />
-          
+          <div className='other-page'>
+            <h1>Все задачи</h1>
           </div>
-          <div className='input-field'>
-            <button type="submit">Добавить задачу</button>
+          <div className='now-page' onClick={gotoMyTasks}>
+            <h1>Мои задачи</h1>
           </div>
         </div>
-      </form>
-      
-      <div className="task-list">
-        {tasks.map((task) => (
-          <div key={task.id} className="task-card-shell">
+        <div className="tasklist">
+          {tasks.map((task) => (
+            <div key={task.id} className="taskcard">
+              <div className="visible-items">
+                  <div className='mini-info'>
+                    <div className="title"><h2>{task.title}</h2></div>
+                    <div className="description"><textarea readOnly={true} disabled={true}>{task.description}</textarea></div>
+                  </div>
+                    <div className='full-info-button'>
+                      <img src="src\assets\full-info.png" alt="full-info" onClick={() => setExpandedTaskId(task.id === expandedTaskId ? null : task.id)}/>
+                      </div>
+                </div>
+                  {expandedTaskId === task.id && (
+                  <div className="full-info">
+                  {/* Здесь можно добавить дополнительную информацию для развернутой карточки */}
+                    <div className='other-info'>
+                      <div className='deadline'>
+                        <p>Дедлайн: {task.id}</p>
+                      </div>
+                      <div className='difficult'>
+                        <p>Сложность задания: {task.id}</p>
+                      </div>
+                    </div>
+                    <div className='take-task-button'>
+                      <p>Забрать задание</p>
+                    </div>
+                  </div>
+                  )}
+                  
+              </div>
             
-            <div className="task-card" onClick={() => setExpandedTaskId(task.id === expandedTaskId ? null : task.id)}>
-            <h2>{task.title}</h2>
-            <p>{task.description}</p>
-            <p>ID: {task.id}</p>
-            <button onClick={() => setExpandedTaskId(task.id === expandedTaskId ? null : task.id)}>Развернуть</button>
-            {expandedTaskId === task.id && (
-          <div className="expanded-info">
-            {/* Здесь можно добавить дополнительную информацию для развернутой карточки */}
-            <p>Дополнительная информация для задачи с ID: {task.id}</p>
-            <button>Приступить к выполнению задания</button>
-          </div>
-        )}
-            </div>
-          </div>
-          
-        ))}
-      </div>
+            
+          ))}
+
+
+        </div>
     </div>
     </div>
+    
     
   );
   

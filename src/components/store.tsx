@@ -1,45 +1,104 @@
-import {InProgress} from '../components/inprogress';
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import '../css/store.css';
 
-//export const Store = () => <InProgress/>;
 
-
-import React, { useState, ReactNode } from 'react';
-
-// Определение интерфейса модального окна
-interface ModalProps {
-  isOpen: boolean;
-  onClose: () => void;
-  children?: ReactNode; // Добавьте свойство children
-}
-
-// Компонент модального окна
-const Modal: React.FC<ModalProps> = ({ isOpen, onClose, children }) => {
-  if (!isOpen) return null;
-
+export const Store: React.FC = () => {
   return (
-    <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, backgroundColor: 'rgba(0, 0, 0, 0.5)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ backgroundColor: 'white', padding: 20 }}>
-        {children}
-        <button onClick={onClose}>Закрыть</button>
+    <div className="store-background">
+      
+        <img src="src\assets\revolver.png" alt="" id="first" className="revolver"/>
+        {/*<img src="src\assets\revolver.png" alt="" id="second" className="revolver"/>*/}
+      
+      <div className="store-container">
+        <Navbar />
+        <ProductList />
+        <Navigation />
       </div>
     </div>
   );
 };
 
-// Основной компонент приложения
-export const Store: React.FC = () => {
-  const [isModalOpen, setModalOpen] = useState(false);
 
-  const openModal = () => setModalOpen(true);
-  const closeModal = () => setModalOpen(false);
+const Navbar: React.FC = () => {      //сделан
+  const navigate = useNavigate();
+  const gotoMainForm = () => navigate('/mainform');
 
   return (
-    <div>
-      <button onClick={openModal}>Открыть модальное окно</button>
-      <Modal isOpen={isModalOpen} onClose={closeModal}>
-        <p>Содержимое модального окна</p>
-      </Modal>
+    <div className='navbar'>
+          <div className='exit-icon' onClick={gotoMainForm}>
+            <img src="src\assets\exit-icon.png" alt=""/>
+          </div>
+          <div className='now-page' >
+            <h1>Все задачи</h1>
+          </div>
+          <div className='other-page' >
+            <h1>Мои задачи</h1>
+          </div>
+        </div>
+  );
+};
+
+
+interface ProductData {
+  name: string;
+  price: number;
+  sizes?: string[];
+}
+
+const products: ProductData[] = [
+  { name: 'GHOST GREEN HOODIE', price: 10000, sizes: ['S'] },
+  { name: 'COZER TEE GREY', price: 5000, sizes: ['S', 'M', 'L'] },
+  { name: 'CAP BOY', price: 4000, sizes: ['M'] },
+  { name: 'SANITIZER PACK', price: 2200 },
+];
+
+const ProductList: React.FC = () => {
+  return (
+    <div className='product-list'>
+      {products.map((product, index) => (
+        <Product key={index} product={product} />
+      ))}
     </div>
   );
 };
+
+
+
+
+interface ProductProps {
+  product: {
+    name: string;
+    price: number;
+    sizes?: string[];
+  };
+}
+
+const Product: React.FC<ProductProps> = ({ product }) => {
+  return (
+    <div className='product'>
+      <img src={`/${product.name.toLowerCase().replace(/ /g, '-')}.png`} alt={product.name} />
+      <h3>{product.name}</h3>
+      <p>{product.price} ₽</p>
+      {product.sizes && <p>Размеры: {product.sizes.join(', ')}</p>}
+      <button>Add to cart</button>
+    </div>
+  );
+};
+
+
+
+const Navigation: React.FC = () => {
+  return (
+    <nav>
+      <a href="#">PROJECTS</a>
+      <a href="#">SHOP</a>
+      <a href="#">ABOUT</a>
+      <a href="#">CONTACT</a>
+      <a href="#">HOME</a>
+    </nav>
+  );
+};
+
+
 

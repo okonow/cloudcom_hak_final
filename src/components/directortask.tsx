@@ -6,10 +6,12 @@ interface Task {
     id: number;
     title: string;
     description: string;
-    status: 'done' | 'in_progress' | 'not_started';
+    workerId: number;
+    creatorId: number;
+    IsFinished: boolean;
   }
 
-const tasks: Task[] = [
+const tasks1: Task[] = [
     { id: 1, title: 'Задача 1', description: '', status: 'done' },
     { id: 2, title: 'Задача 2', description: '', status: 'in_progress' },
     { id: 3, title: 'Задача 3', description: '', status: 'not_started' },

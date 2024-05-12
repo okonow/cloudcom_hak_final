@@ -1,176 +1,168 @@
 :root {
   --task-optional-info-color: rgb(237, 166, 0);
+  --opacity-color: rgba(255, 255, 255, 0.5);
+}
+
+.alltasks-container {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  font-family: var(--font);
+}
+
+.alltasks-background {
+  height: 500vh;
+  background-repeat: repeat;
+  background-image: url(../assets/background3.png);
+}
+
+.alltasks-container .navbar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  background-color: var(--opacity-color);
+  margin-bottom: 2vh;
+  
+}
+
+.alltasks-container .navbar .now-page h1, 
+.alltasks-container .navbar .other-page h1 { 
+  padding-inline: 10px;
+  padding-block: 3vh;
+  margin: 0;
+
+}
+
+.alltasks-container .navbar .other-page,
+.alltasks-container .navbar .now-page :hover 
+{
+  background-color: var(--opacity-color);
+  cursor: pointer;
+}
+
+.alltasks-container .navbar .exit-icon :hover {
+  cursor: pointer;
+  
 }
 
 
-  .alltasks-container {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    font-family: var(--font);
 
-  }
+.alltasks-container .navbar .exit-icon img {
+  position: relative;
+  height: 10vh;
+}
 
-  .alltasks-container .navbar {
-    width: 100%;
-    display:flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    background-color: rgba(255, 255, 255, 0.5);
-  }
-
-  .navbar img {
-    width: 76px;
-    height: 100%;
-  }
-
-  .navbar .exit-icon :hover {
-    background-color: rgba(255, 255, 255, 0.5);
-  }
-
-
-
-  .alltasks-container .other-page-title, .now-page-title {
-    width:auto;
-  }
-
-  .alltasks-container .now-page-title {
-    background-color: rgba(255, 255, 255, 0.5);
-  }
-
-  h1 {
-    margin:0;
-    padding:20px;
-  }
-
-  .alltasks-container .other-page-title :hover {
-    background-color: rgba(255, 255, 255, 0.5);
-    
-  }
-
-  .title h1 {
-    margin: 0;
-    padding: 20px;
-    
-    left: -50%;
-
-  }
-
-  .alltasks-container .input-fields {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: center;
-    width:100%;
-  }
-
-  .alltasks-container .input-field {
-    width: 80%;
-    height: auto;
-    
-
-  }
-
-  .alltasks-container textarea {
-    width: 100%;
-    height: auto;
-    resize:none;
-    padding: 0;
-    border-width: 0;
-    border-radius: 2%;
-  }
-
-  .input-field input {
-    width: 100%;
-    padding: 0;
-    border-width: 0;
-    border-radius: 2%;
-  }
-
+.alltasks-container .navbar .exit-icon img:hover {
   
-  .alltasks-container form {
-    width: 100%;
-  }
+}
 
-  .card {
-    background-color: #f1f1f1;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 5px;
-  }
+.alltasks-container .tasklist {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.alltasks-container .tasklist .taskcard {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content:center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-block: 2vh;
+  background-color: var(--opacity-color);
+  border-width: 100px;
+  border-color: black;
+}
+
+.alltasks-container .tasklist .taskcard .visible-items {
+  display: flex;
+  flex-flow:row;
+  width: 100%;
+  align-items: center;
+  height:100%;
+  padding-left: 5vw;
+}
+
+.alltasks-container .tasklist .taskcard .mini-info {
+  display: flex;
+  flex-flow:column;
+  width:90%;
+  height:100%;
+  padding-block: 2vh;
+}
+
+.alltasks-container .tasklist .taskcard .mini-info textarea {
+  border: 0;
+  background-color: transparent;
+  width:90%;
+  height:100%;
+  overflow: auto;
+  resize:none;
+}
+
+.alltasks-container .tasklist .taskcard .full-info-button img {
+  height: 10vh;
+  cursor: pointer;
+
+}
+
+.alltasks-container .tasklist .taskcard .full-info {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  width:100%;
+  padding-left: 5vw;
+  padding-block: 5vh;
+}
+
+.alltasks-container .tasklist .taskcard .full-info .other-info {
+  display:flex;
+  flex-flow: column;
+
+}
+
+.alltasks-container .tasklist .taskcard .full-info .take-task-button {
+  height: 100%;
+  background: var(--opacity-color);
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+  margin-inline: 2vw;
+  transition: transform 0.3s, box-shadow 0.3s; /* Добавляем плавное изменение свойств при ховере */
+}
+
+.alltasks-container .tasklist .taskcard .full-info .take-task-button:hover {
+  transform: translateZ(5px);
+  box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5), 0px 0px 10px 0px rgba(0, 0, 0, 0.5); /* Добавляем тень при ховере */
+  cursor: pointer;
+}
+
+.alltasks-container .tasklist .taskcard .full-info .take-task-button p {
+  padding-inline: 10px;
+  padding-block: 3vh;
+  margin: 0;
+}
 
 
-  .alltasks-container .task-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width:100%;
-  }
 
+
+
+
+/* .alltasks-container .tasklist .taskcard .full-info .take-task-button .button {
+  width: 100%;
+  height: 100%;
+  background-color: var(--opacity-color);
+  cursor: pointer;
+  padding: 2vh;
   
-  .alltasks-container .task-card-shell {
-    width: 80%;
-    padding: 0;
-    background-color: #ffffff;
-    border-radius: 15px;
-    margin-bottom: 10px;
-    
-    
-    
-  }
+} */
 
-  .alltasks-container .task-card {
-    margin: 0px;
-    
-  }
-
-  .task-card * {
-    
-  }
-
-  .task-card h2 {
-    margin: 0;
-    padding: 10px;
-    
-  }
-
-
- .alltasks-container .task-card-shell :hover {
-    /* background-color: rgb(119, 255, 0);  */
-    box-shadow: 10px 10px 10px 10px rgb(0, 0, 0);
-
-    
-  }
-
+.alltasks-container .tasklist .taskcard .full-info .take-task-button :hover {
   
-
-  .task-card button {
-    padding-inline: 15px;
-    padding-block: 5px;
-    border-width: 2px;
-    background-color: var(--task-optional-info-color);
-    pointer-events: all;
-    
-  }
-
-
-   .mytasks-container {
-    position: relative;
-    height: 400vh; 
-    background-image: url('../assets/saloon.png');
-    background-size: cover;
-    background-attachment: fixed;
-  } 
-
-  .alltasks-container .expanded-info {
-    padding: 0;
-    margin: 0;
-    background-color: var(--task-optional-info-color);
-  }
-
-  .expanded-info p {
-    margin: 0;
-    padding: 15px;
-  }
-
   
+}
+

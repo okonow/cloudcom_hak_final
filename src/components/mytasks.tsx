@@ -9,6 +9,11 @@ interface Task {
   description: string;
 }
 
+interface TaskReply {
+  title: string;
+  description: string;
+  comments: string[];
+}
 
 const tasks1: Task[] = [
     { id: 1, title: 'Task 1', description: 'Description 1' },
@@ -47,6 +52,7 @@ export const MyTasks = () =>{
     const [newReply, setNewReply] = useState('');
     const navigate = useNavigate();
     const gotoAllTasks = () => navigate('/alltasks');
+    const gotoMyTasks = () => navigate('/mytasks');
     const gotoMainForm = () => navigate('/mainform');
   
     const handleAlert = (e: React.MouseEvent<HTMLButtonElement>) => {
@@ -88,18 +94,18 @@ export const MyTasks = () =>{
     };
   
     return (
-      <div className='mytasks-container'>
+      <div className='alltasks-background'>
       <div className='alltasks-container'>
-        <div className='navbar'>
-            <div className='exit-icon' onClick={gotoMainForm}>
-                <img src="src\assets\exit-icon.png" alt=""/>
-            </div>
-          <div className='other-page-title' onClick={gotoAllTasks}>
-        <h1>Все задачи</h1>
-        </div>
-        <div className='now-page-title'>
-         <h1>Мои задачи</h1>
-        </div>
+      <div className='navbar'>
+          <div className='exit-icon' onClick={gotoMainForm}>
+            <img src="src\assets\exit-icon.png" alt=""/>
+          </div>
+          <div className='now-page' onClick={gotoAllTasks}>
+            <h1>Все задачи</h1>
+          </div>
+          <div className='other-page' onClick={gotoMyTasks}>
+            <h1>Мои задачи</h1>
+          </div>
         </div>
         
         
@@ -139,6 +145,58 @@ export const MyTasks = () =>{
             
           ))}
         </div>
+
+        <div className="tasklist">
+          {tasks.map((task) => (
+            <div key={task.id} className="taskcard">
+              <div className="visible-items">
+                  <div className='mini-info'>
+                    <div className="title"><h2>{task.title}</h2></div>
+                    <div className="description"><textarea readOnly={true} disabled={true}>{task.description}</textarea></div>
+                  </div>
+                    <div className='full-info-button'>
+                      <img src="src\assets\full-info.png" alt="full-info" onClick={() => setExpandedTaskId(task.id === expandedTaskId ? null : task.id)}/>
+                      </div>
+                </div>
+                  {expandedTaskId === task.id && (
+                  <div className="full-info">
+                  {/* Здесь можно добавить дополнительную информацию для развернутой карточки */}
+                    <div className='other-info'>
+                      <div className='deadline'>
+                        <p>Дедлайн: {task.id}</p>
+                      </div>
+                      <div className='difficult'>
+                        <p>Сложность задания: {task.id}</p>
+                      </div>
+                    </div>
+                    <div className='reply-window'>
+                    <button onClick={openModal}>Ответ на задание</button>
+                    <Modal isOpen={isModalOpen} onClose={closeModal}>
+                        <div>
+                            <div className='comments'>
+                                <p>Комментарии к работе:</p>
+
+                            </div>
+                            <form>
+                            <input type='text'
+                                value={newReply}
+                                onChange={(e) => setNewReply(e.target.value)} placeholder='bebe'></input>
+                            <button onClick={handleAlert}>Добавить ответ на задание</button>
+                            </form>
+                        </div>
+                    </Modal>
+                    </div>
+                  </div>
+                  )}
+                  
+              </div>
+            
+            
+          ))}
+
+
+        </div>
+
       </div>
       </div>
       

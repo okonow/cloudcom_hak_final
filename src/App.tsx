@@ -1,11 +1,13 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Login, Register} from './components/sign'; 
+import { Login } from './components/login'
+import { Register } from './components/register';
 import { MainForm } from './components/mainform';
 import { AllTasks} from './components/alltasks';
 import { MyTasks } from './components/mytasks';
 import { Store } from './components/store';
 import { Rating } from './components/rating';
 import { DirectorTasks } from './components/directortask';
+import { AdminForm } from './components/AdminForm/adminform';
 
 
 const App = () => {
@@ -20,6 +22,7 @@ const App = () => {
         <Route path="/store" element={<Store />} />
         <Route path="/rating" element={<Rating />} />
         <Route path="/directortasks" element={<DirectorTasks />} />
+        <Route path="/adminform" element={<AdminForm />} />
       </Routes>
     </BrowserRouter>
   );
