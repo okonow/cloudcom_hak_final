@@ -1,0 +1,230 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\cpp\\FullCompilation\\WorkflowGamification\\Saga\\ServicesSaga\\ServicesSaga.csproj": {}
+  },
+  "projects": {
+    "D:\\cpp\\FullCompilation\\WorkflowGamification\\Common\\Contracts\\Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\cpp\\FullCompilation\\WorkflowGamification\\Common\\Contracts\\Contracts.csproj",
+        "projectName": "Contracts",
+        "projectPath": "D:\\cpp\\FullCompilation\\WorkflowGamification\\Common\\Contracts\\Contracts.csproj",
+        "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
+        "outputPath": "D:\\cpp\\FullCompilation\\WorkflowGamification\\Common\\Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sartu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\cpp\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj": {
+                "projectPath": "D:\\cpp\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\cpp\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\cpp\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj",
+        "projectName": "Dependencies",
+        "projectPath": "D:\\cpp\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj",
+        "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
+        "outputPath": "D:\\cpp\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sartu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
+            "MassTransit.StateMachineVisualizer": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\cpp\\FullCompilation\\WorkflowGamification\\Saga\\ServicesSaga\\ServicesSaga.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\cpp\\FullCompilation\\WorkflowGamification\\Saga\\ServicesSaga\\ServicesSaga.csproj",
+        "projectName": "ServicesSaga",
+        "projectPath": "D:\\cpp\\FullCompilation\\WorkflowGamification\\Saga\\ServicesSaga\\ServicesSaga.csproj",
+        "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
+        "outputPath": "D:\\cpp\\FullCompilation\\WorkflowGamification\\Saga\\ServicesSaga\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sartu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\cpp\\FullCompilation\\WorkflowGamification\\Common\\Contracts\\Contracts.csproj": {
+                "projectPath": "D:\\cpp\\FullCompilation\\WorkflowGamification\\Common\\Contracts\\Contracts.csproj"
+              },
+              "D:\\cpp\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj": {
+                "projectPath": "D:\\cpp\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
