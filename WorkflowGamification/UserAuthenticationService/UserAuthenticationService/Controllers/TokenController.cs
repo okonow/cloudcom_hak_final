@@ -11,7 +11,7 @@ namespace UserAuthenticationService.Controllers
     {
         private readonly ITokenService _tokenService = tokenService;
 
-        //[Authorize]
+        [Authorize]
         [HttpPut]
         public async Task<IActionResult> RefreshTokenAsync()
         {

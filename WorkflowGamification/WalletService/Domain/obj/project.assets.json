@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\krian\\.nuget\\packages\\": {}
+    "C:\\Users\\sartu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\WalletService\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\WalletService\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\WalletService\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\krian\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\WalletService\\Domain\\obj\\",
+      "projectPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\WalletService\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\WalletService\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\krian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sartu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

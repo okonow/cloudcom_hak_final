@@ -5,7 +5,7 @@ using UserAuthenticationService.Data;
 
 namespace UserAuthenticationService.Consumers.UserConsumers
 {
-    public class CreateUserConsumer(IUserService userService, IServiceProvider serviceProvider) : IConsumer<CreateUserSagaCommand>
+    public class CreateUserConsumer(IUserService userService) : IConsumer<CreateUserSagaCommand>
     {
         private readonly IUserService _userService = userService;
 

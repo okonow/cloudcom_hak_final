@@ -19,6 +19,7 @@ namespace CompanyStoreService.Consumers.ShoppingListConsumers
             catch (Exception ex)
             {
                 // TODO: доделать обработку исключений при создании списка купленных товаров
+                Console.WriteLine(ex.Message);
             }
         }
     }

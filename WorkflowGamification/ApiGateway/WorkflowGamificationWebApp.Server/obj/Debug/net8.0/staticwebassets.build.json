@@ -1,23 +1,11 @@
 {
   "Version": 1,
-  "Hash": "/ex/my3hqW/NXTV2dlNLaz1F9m1CYJD9Da0Heqzgg2I=",
+  "Hash": "SY7kSMKyVYydgUzbJL8+WW1hwrfBhVhKpgxf+3aVltE=",
   "Source": "WorkflowGamificationWebApp.Server",
   "BasePath": "_content/WorkflowGamificationWebApp.Server",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [
-    {
-      "Identity": "D:\\cpp\\FullCompilation\\WorkflowGamification\\ApiGateway\\workflowgamificationwebapp.client\\workflowgamificationwebapp.client.esproj",
-      "Version": 2,
-      "Source": "workflowgamificationwebapp.client",
-      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;Configuration;Platform;TargetFramework;RuntimeIdentifier;SelfContained",
-      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;Configuration;Platform;TargetFramework;RuntimeIdentifier;SelfContained"
-    }
-  ],
+  "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
   "Assets": []
 }

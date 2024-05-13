@@ -26,7 +26,7 @@ namespace WalletService.Consumers
             }
             catch (Exception ex)
             {
-
+                Console.WriteLine(ex.Message);
             }
         }
     }

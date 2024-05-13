@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:5173",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "D:\\cpp\\FullCompilation\\WorkflowGamification\\ApiGateway\\WorkflowGamificationWebApp.Server\\..\\workflowgamificationwebapp.client",
+"WorkingDirectory": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\ApiGateway\\WorkflowGamificationWebApp.Server\\..\\workflowgamificationwebapp.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

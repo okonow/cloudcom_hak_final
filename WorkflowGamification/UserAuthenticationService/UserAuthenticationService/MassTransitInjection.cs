@@ -1,4 +1,5 @@
-﻿using Contracts.CreateUserContracts;
+﻿using Contracts.AddRoleToUserContracts;
+using Contracts.CreateUserContracts;
 using Contracts.DeleteUserContracts;
 using Dependencies;
 using MassTransit;
@@ -27,8 +28,7 @@ namespace Microsoft.Extensions.DependencyInjection
                     rabbitConfig.ConfigureEndpoints(context);
                 });
                 EndpointConvention.Map<CreateUserSagaCommand>(new Uri($"queue:CreateUser"));
-                EndpointConvention.Map<CreateUserWalletSagaCommand>(new Uri($"queue:CreateWallet"));
-
+                EndpointConvention.Map<AddRoleToUserSagaCommand>(new Uri($"queue:AddRoleToUser"));
                 EndpointConvention.Map<DeleteUserSagaCommand>(new Uri($"queue:DeleteUser"));
             });
 

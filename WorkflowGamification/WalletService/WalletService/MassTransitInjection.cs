@@ -28,7 +28,7 @@ namespace Microsoft.Extensions.DependencyInjection
                 });
                 EndpointConvention.Map<CreateUserWalletSagaCommand>(new Uri($"queue:CreateWallet"));
                 EndpointConvention.Map<DeleteWalletSagaCommand>(new Uri($"queue:DeleteWallet"));
-                EndpointConvention.Map<SendToMoneyToUserSagaCommand>(new Uri($"queue:SendMoney"));
+                EndpointConvention.Map<SendToMoneyToUserSagaCommand>(new Uri($"queue:SendMoneyToUser"));
             });
 
             return services;

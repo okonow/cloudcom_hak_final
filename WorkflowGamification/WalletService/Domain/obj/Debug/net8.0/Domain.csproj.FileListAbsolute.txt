@@ -32,3 +32,14 @@ D:\cpp\FullCompilation\WorkflowGamification\WalletService\Domain\obj\Debug\net8.
 D:\cpp\FullCompilation\WorkflowGamification\WalletService\Domain\obj\Debug\net8.0\refint\Domain.dll
 D:\cpp\FullCompilation\WorkflowGamification\WalletService\Domain\obj\Debug\net8.0\Domain.pdb
 D:\cpp\FullCompilation\WorkflowGamification\WalletService\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\WalletService\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\WalletService\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\WalletService\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\WalletService\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\WalletService\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\WalletService\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\WalletService\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\WalletService\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\WalletService\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\WalletService\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\WalletService\Domain\obj\Debug\net8.0\ref\Domain.dll

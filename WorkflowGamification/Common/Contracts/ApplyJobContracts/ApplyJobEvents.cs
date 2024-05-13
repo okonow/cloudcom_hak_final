@@ -2,19 +2,11 @@
 {
     public record JobFinishedEvent
     {
-
+        public required Guid DirectorId { get; set; }
     }
 
     public record JobNotFinishedEvent
     {
-
-    }
-    public record MoneyHasSentEvent
-    {
-
-    }
-    public record MoneyHasNotSentEvent
-    {
-
+        public required IEnumerable<string> Errors { get; set; }
     }
 }

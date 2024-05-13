@@ -12,5 +12,7 @@ namespace ServicesSaga.Data
         public DbSet<UserCreationState> UserCreationStates { get; set; }
 
         public DbSet<UserDeletionState> UserDeletionStates { get; set; }
+
+        public DbSet<JobApplyingState> JobApplyStates { get; set; }
     }
 }

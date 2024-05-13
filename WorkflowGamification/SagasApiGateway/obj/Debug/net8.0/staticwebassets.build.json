@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "mxaAqjiHoUCpzGnSfixS3s7hxZ+IbEfmTrt9+xvSLyU=",
+  "Source": "SagasApiGateway",
+  "BasePath": "_content/SagasApiGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

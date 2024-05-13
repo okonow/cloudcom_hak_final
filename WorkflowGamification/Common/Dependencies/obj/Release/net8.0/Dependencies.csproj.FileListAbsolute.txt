@@ -1,0 +1,12 @@
+C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\Common\Dependencies\bin\Release\net8.0\Dependencies.deps.json
+C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\Common\Dependencies\bin\Release\net8.0\Dependencies.dll
+C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\Common\Dependencies\bin\Release\net8.0\Dependencies.pdb
+C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\Common\Dependencies\obj\Release\net8.0\Dependencies.csproj.AssemblyReference.cache
+C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\Common\Dependencies\obj\Release\net8.0\Dependencies.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\Common\Dependencies\obj\Release\net8.0\Dependencies.AssemblyInfoInputs.cache
+C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\Common\Dependencies\obj\Release\net8.0\Dependencies.AssemblyInfo.cs
+C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\Common\Dependencies\obj\Release\net8.0\Dependencies.csproj.CoreCompileInputs.cache
+C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\Common\Dependencies\obj\Release\net8.0\Dependencies.dll
+C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\Common\Dependencies\obj\Release\net8.0\refint\Dependencies.dll
+C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\Common\Dependencies\obj\Release\net8.0\Dependencies.pdb
+C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\Common\Dependencies\obj\Release\net8.0\ref\Dependencies.dll
