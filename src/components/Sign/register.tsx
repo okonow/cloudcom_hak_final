@@ -3,6 +3,8 @@ import '../../css/sign.css';
 import { useNavigate } from'react-router-dom';
 import '../../assets/login-pictures/login-img.png';
 import { sendRequest } from './sendrequest';
+import Cookies from 'js-cookie';
+
 
 
 export const Register = () =>
@@ -17,7 +19,7 @@ export const Register = () =>
         firstName: "",
         middleName: "",
         lastName: "",
-        login: "",
+        email: "",
         password: "",
     });
         
@@ -31,12 +33,35 @@ export const Register = () =>
       
         const handleRegister = async (e: React.FormEvent<HTMLFormElement>) => {
             e.preventDefault();
+            console.log(creatingUser);
+            // try {
+
+            //   const result = await sendRequest("https://localhost:7024/SagaApi/UserSaga/CreateUser", creatingUser); // Отправляем данные на сервер
+            //    // Получаем идентификатор пользователя
+            //   localStorage.set('userId', result); // Сохраняем идентификатор пользователя в куки
+            //   console.log('Response from server:', result); // Выводим результат в консоль
+            // } catch (error) {
+            //   console.error('Failed to send data:', error); // Вывод ошибки, если что-то пошло не так
+            // }
+
             try {
-              const result = await sendRequest("https:localhost:7256/api/User/CreateNewUser", creatingUser); // Отправляем данные на сервер
-              console.log('Response from server:', result); // Выводим результат в консоль
-            } catch (error) {
-              console.error('Failed to send data:', error); // Вывод ошибки, если что-то пошло не так
-            }
+              const response = await fetch('https:localhost:7024/SagaApi/UserSaga/CreateUser', {
+                  method: "POST",
+                  headers: {
+                      'Content-Type': 'application/json'
+                  },
+                  body: JSON.stringify(creatingUser)
+              });
+              
+              if (response.ok) {
+                  return await response.json();
+              } else {
+                  throw new Error('Ошибка при выполнении запроса');
+              }
+          } catch (error) {
+              console.error('Ошибка:', error);
+              throw new Error('Произошла ошибка при обращении к серверу');
+          }
           };
 
         
@@ -66,7 +91,7 @@ export const Register = () =>
               <input type="password" placeholder="password" onChange={handleInputChange} value={creatingUser.password} name="password" />
               </div>
               <div>
-              <input type="text" placeholder="email address" onChange={handleInputChange} value={creatingUser.login} name="login"/>
+              <input type="text" placeholder="email address" onChange={handleInputChange} value={creatingUser.email} name="email"/>
               </div>
               
               </div>

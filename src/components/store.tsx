@@ -20,7 +20,7 @@ export const Store: React.FC = () => {
 };
 
 
-const Navbar: React.FC = () => {      //сделан
+const Navbar: React.FC = () => {      
   const navigate = useNavigate();
   const gotoMainForm = () => navigate('/mainform');
 
@@ -30,10 +30,10 @@ const Navbar: React.FC = () => {      //сделан
             <img src="src\assets\exit-icon.png" alt=""/>
           </div>
           <div className='now-page' >
-            <h1>Все задачи</h1>
+            <h1>Товары</h1>
           </div>
           <div className='other-page' >
-            <h1>Мои задачи</h1>
+            <h1>Услуги</h1>
           </div>
         </div>
   );

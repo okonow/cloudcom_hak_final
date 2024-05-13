@@ -47,11 +47,13 @@ export const MyTaskCard: React.FC<TaskCardProps> = ({ task }) => {
     console.log(sendingReply);
         try {
             const accessToken = localStorage.getItem('accessToken');
-            console.log('Ответ сервера:', sendRequestWithAccess("PATCH", "https:localhost:7256/api/User/AuthenticateUser", sendingReply, accessToken));
+            console.log('Ответ сервера:', sendRequestWithAccess("PATCH", "https:localhost:7256/api/Job/AddAnswerToJob", sendingReply, accessToken));
         } catch (error) {
             console.error('Произошла ошибка:', error);
          }
      };
+
+     
 
   return (
     <div className="taskcard">

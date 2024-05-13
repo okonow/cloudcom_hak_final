@@ -23,6 +23,7 @@ const App = () => {
         <Route path="/rating" element={<Rating />} />
         <Route path="/directortasks" element={<DirectorTasks />} />
         <Route path="/adminform" element={<AdminForm />} />
+        
       </Routes>
     </BrowserRouter>
   );

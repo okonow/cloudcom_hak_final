@@ -47,7 +47,7 @@ export const sendRequestWithAccessWithId = async (method: string, url: string, b
         const response = await fetch(url, {
             method: method,
             headers: {
-                'departmentId': id,
+                'departmentId': id,   
                 'Content-Type': 'application/json',
                 "Authorization": `Bearer ${accessToken}`
             },

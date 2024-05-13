@@ -2,39 +2,16 @@ import '../../css/alltasks.css';
 import { useNavigate } from 'react-router-dom';
 import {useState, useEffect, ReactNode} from'react';
 import { MyTaskCard } from './mytaskcard';
+import { sendRequestWithAccessWithId } from '../Sign/sendrequest';
 
 interface Task {
-  id: number;
+  id: string;
   title: string;
   description: string;
+  IsFinished: boolean;
 }
 
-const tasks1: Task[] = [
-    { id: 1, title: 'Task 1', description: 'Description 1' },
-    { id: 2, title: 'Task 2', description: 'Description 2' },
-    { id: 3, title: 'Task 3', description: 'Description 3' },
-  ];
-
-
-  interface ModalProps {
-    isOpen: boolean;
-    onClose: () => void;
-    children?: ReactNode;
-  }
   
-  const Modal: React.FC<ModalProps> = ({ isOpen, onClose, children }) => {
-    if (!isOpen) return null;
-  
-    return (
-      <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, backgroundColor: 'rgba(0, 0, 0, 0.5)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <div style={{ backgroundColor: 'white', padding: 20 }}>
-          {children}
-          <button onClick={onClose}>Закрыть</button>
-        </div>
-      </div>
-    );
-  };
-
 export const MyTasks = () =>{
   
 
@@ -42,9 +19,51 @@ export const MyTasks = () =>{
     const gotoAllTasks = () => navigate('/alltasks');
     const gotoMyTasks = () => navigate('/mytasks');
     const gotoMainForm = () => navigate('/mainform');
+
+    const [tasks, setTasks] = useState<Task[]>([]);
   
- 
+    useEffect(() => {
+      const fetchTasks = async () => {
+        try {
+          const accessToken = localStorage.getItem('accessToken');
+          const response = await sendRequestWithAccessWithId("GET", "https://localhost:7024/api/Job/GetEmployeeUnfinishedJobs", null, accessToken, "1");
+          console.log('Ответ сервера:', response);
+          setTasks(response);
+        } catch (error) {
+          console.error('Произошла ошибка:', error);
+        }
+      };
+        // Вызов асинхронной функции для загрузки данных
+    fetchTasks();
+  }, []);
   
+  const tasks1: Task[] = [
+    {
+      id: "1",
+      title: "Complete project documentation",
+      description: "Write the final sections of the project documentation including summaries and conclusions.",
+      IsFinished: false
+    },
+    {
+      id: "2",
+      title: "Review codebase",
+      description: "Go through the new commits and review for any potential bugs or improvements.",
+      IsFinished: true
+    },
+    {
+      id: "3",
+      title: "Team meeting",
+      description: "Organize a weekly team meeting to discuss project progress and distribute new tasks.",
+      IsFinished: false
+    },
+    {
+      id: "4",
+      title: "Update dependencies",
+      description: "Check for outdated dependencies in the project and update them.",
+      IsFinished: true
+    }
+  ];
+
     return (
       <div className='alltasks-background'>
         <div className='alltasks-container'>
@@ -62,7 +81,7 @@ export const MyTasks = () =>{
           
 
             <div className="tasklist">
-              {tasks.map((task) => (
+              {tasks1.map((task) => (
                 <MyTaskCard key={task.id} task={task} />
               ))}
           </div>

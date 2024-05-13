@@ -36,8 +36,8 @@ interface LoginRequest{
         console.log(authenticatingUser);
         try {
             //sendRequest("POST", "/User/CreateNewUser", authenticateUserRequest);
-            console.log('Ответ сервера:', sendRequest("https:localhost:7256/api/User/AuthenticateUser", authenticatingUser));
-            const data = await sendRequest("https:localhost:7256/api/User/AuthenticateUser", authenticatingUser);
+            console.log('Ответ сервера:', sendRequest("https://localhost:7024/SagaApi/UserSaga/AuthenticateUser", authenticatingUser));
+            const data = await sendRequest("https://localhost:7024/SagaApi/UserSaga/AuthenticateUser", authenticatingUser);
             const { accessToken } = data;
             
             localStorage.setItem('accessToken', accessToken);

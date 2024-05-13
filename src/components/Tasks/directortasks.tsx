@@ -2,9 +2,16 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from'react-router-dom';
 import '../../css/alltasks.css';
 import { DirectorTaskCard } from './directortaskcard';
-import { sendRequestWithAccessWithId } from '../Sign/sendrequest';
+import { sendRequestWithAccessWithId, sendRequestWithAccess } from '../Sign/sendrequest';
 
 interface Task {
+  id: string;
+  title: string;
+  description: string;
+  IsFinished: boolean;
+}
+
+interface TaskCreate {
   title: string;
   description: string;
   deadline: string;
@@ -14,7 +21,7 @@ interface Task {
 }
 
 
-export const AllTasks: React.FC = () => {
+export const DirectorTasks: React.FC = () => {
   const [tasks, setTasks] = useState<Task[]>([]);
   const [newTaskId, setNewTaskId] = useState('');
   const [newTitle, setNewTitle] = useState('');
@@ -26,59 +33,83 @@ export const AllTasks: React.FC = () => {
   const gotoMainForm = () => navigate('/mainform');
 
   const [creatingTask, setCreatingTask] = useState({
-    id: "",
     title: "",
     description: "",
-    IsFinished: false,
+    deadline: "",
+    complexity: 0,
+    creatorID: localStorage.getItem('id'),
+    workerId: "",
     
 });
     
     const handleInputChange = (event) => {
       const { name, value } = event.target;
-      setCreatingUser(prevCreatingUser => ({
-        ...prevCreatingUser,
+      setCreatingTask(prevCreatingTask => ({
+        ...prevCreatingTask,
         [name]: value
       }));
     }; 
 
+    const handleNewTask = (e: React.FormEvent<HTMLFormElement>) => {
+      e.preventDefault();
+      console.log(creatingTask);
+          try {
+              const accessToken = localStorage.getItem('accessToken');
+              console.log('Ответ сервера:', sendRequestWithAccess("PATCH", "https:localhost:7256/api/Job/AddAnswerToJob", creatingTask, accessToken));
+              fetchTasks();
+          } catch (error) {
+              console.error('Произошла ошибка:', error);
+           }
+       };
+
 
   
 
-  // const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-  //   e.preventDefault();
-  //   if (newTitle.trim() && newDescription.trim()) {
-  //     const newTask: Task = {
-  //       id: newTaskId.trim(),
-  //       title: newTitle.trim(),
-  //       description: newDescription.trim(),
-  //       IsFinished: newIsFinished,
-  //     };
-  //     setTasks([...tasks, newTask]);
-  //     setNewTitle('');
-  //     setNewDescription('');
-  //   }
-  // };
+       const fetchTasks = async () => {
+        try {
+          const accessToken = localStorage.getItem('accessToken');
+          const response = await sendRequestWithAccessWithId("GET", "https://localhost:7256/api/Job/GetUnfinishedJobsInDepartment", null, accessToken, "1");
+          console.log('Ответ сервера:', response);
+          setTasks(response);
+        } catch (error) {
+          console.error('Произошла ошибка:', error);
+        }
+      };
 
-  const handleNewTask = (e: React.FormEvent<HTMLFormElement>) => {
-
-    
-  }
+ 
 
 
   useEffect(() => {
-    const fetchTasks = async () => {
-      try {
-        const accessToken = localStorage.getItem('accessToken');
-        const response = await sendRequestWithAccessWithId("GET", "https://localhost:7256/api/Job/GetUnfinishedJobsInDepartment", null, accessToken, "1");
-        console.log('Ответ сервера:', response);
-        setTasks(response);
-      } catch (error) {
-        console.error('Произошла ошибка:', error);
-      }
-    };
 
     fetchTasks();
   }, []);
+
+  const tasks1: Task[] = [
+    {
+      id: "1",
+      title: "Complete project documentation",
+      description: "Write the final sections of the project documentation including summaries and conclusions.",
+      IsFinished: false
+    },
+    {
+      id: "2",
+      title: "Review codebase",
+      description: "Go through the new commits and review for any potential bugs or improvements.",
+      IsFinished: true
+    },
+    {
+      id: "3",
+      title: "Team meeting",
+      description: "Organize a weekly team meeting to discuss project progress and distribute new tasks.",
+      IsFinished: false
+    },
+    {
+      id: "4",
+      title: "Update dependencies",
+      description: "Check for outdated dependencies in the project and update them.",
+      IsFinished: true
+    }
+  ];
 
 
   return (
@@ -90,10 +121,10 @@ export const AllTasks: React.FC = () => {
           <img src="src\assets\exit-icon.png" alt=""/>
         </div>
         <div className='other-page'>
-          <h1>Все задачи</h1>
+          <h1>Невыполненные задачи</h1>
         </div>
         <div className='now-page' onClick={gotoMyTasks}>
-          <h1>Мои задачи</h1>
+          <h1>Выполненные задачи</h1>
         </div>
       </div>
 
@@ -104,19 +135,38 @@ export const AllTasks: React.FC = () => {
             
             <input
               type="text"
-              value={newTitle}
-              onChange={(e) => setNewTitle(e.target.value)}
+              value={creatingTask.title}
+              name="title"
+              onChange={handleInputChange}
               placeholder="Введите название задачи"
             />
           </div>
           
           <div className='input-field'>
             <textarea
-              value={newDescription}
-              onChange={(e) => setNewDescription(e.target.value)}
+              value={creatingTask.description}
+              name="description"
+              onChange={handleInputChange}
               placeholder="Введите описание задачи"
             />
           
+          </div>
+          <div className='input-field'>
+            <label>Укажите дедлайн</label>
+          <input
+              type="date"
+              value={creatingTask.deadline}
+              name="deadline"
+              onChange={handleInputChange}
+              placeholder="Укажите дедлайн"
+            />
+          </div>
+          <div className='input-field'>
+            <input type="number" 
+            value={creatingTask.complexity}
+             name="complexity" 
+             onChange={handleInputChange} 
+             placeholder="Укажите сложность задачи (0, 1 или 2)" />
           </div>
           <div className='input-field'>
             <button type="submit">Добавить задачу</button>
@@ -126,7 +176,7 @@ export const AllTasks: React.FC = () => {
       </div>
 
       <div className="tasklist">
-        {tasks.map((task) => (
+        {tasks1.map((task) => (
           <DirectorTaskCard key={task.id} task={task} />
         ))}
 
