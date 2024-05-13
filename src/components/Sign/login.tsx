@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import '../css/sign.css';
+import '../../css/sign.css';
 import { useNavigate } from'react-router-dom';
-import '../assets/login-pictures/login-img.png';
+import '../../assets/login-pictures/login-img.png';
 import { sendRequest } from './sendrequest';
 
 
@@ -10,36 +10,42 @@ interface LoginRequest{
     password: string;
   }
   
-  export const  Login = () => 
+  export const Login = () => 
     {
   
       const navigate = useNavigate();
   
       const goToRegister = () => navigate('/register');
       const goToMainform = () => navigate('/mainform');
-  
-      const [login, setLogin] = useState('');
-      const [password, setPassword] = useState('');
 
-      const [authenticateUserRequest, setAuthenticateUserRequest] = useState<LoginRequest>({
-        email: '',
-        password: '',
+      const [authenticatingUser, setAuthenticatingUser] = useState({
+        login: "",
+        password: "",
     });
+
+     const handleInputChange = (event) => {
+      const { name, value } = event.target;
+      setAuthenticatingUser(prevAuthenticatingUser => ({
+        ...prevAuthenticatingUser,
+        [name]: value
+      }));
+     };
     
-      const handleLogin = async (e: React.FormEvent<HTMLFormElement>) => {
+       const handleLogin = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
+        console.log(authenticatingUser);
         try {
             //sendRequest("POST", "/User/CreateNewUser", authenticateUserRequest);
-            console.log('Ответ сервера:', sendRequest("POST", "/User/CreateNewUser", authenticateUserRequest));
-            const data = await sendRequest("POST", "/User/CreateNewUser", authenticateUserRequest);
+            console.log('Ответ сервера:', sendRequest("https:localhost:7256/api/User/AuthenticateUser", authenticatingUser));
+            const data = await sendRequest("https:localhost:7256/api/User/AuthenticateUser", authenticatingUser);
             const { accessToken } = data;
-
+            
             localStorage.setItem('accessToken', accessToken);
-            goToMainform();
+            //goToMainform();
         } catch (error) {
             console.error('Произошла ошибка:', error);
-        }
-    };
+         }
+     };
   
       return (
         
@@ -51,15 +57,17 @@ interface LoginRequest{
           <div className='login-img'>
           <img src="src\assets\login-pictures\login-img-background.jpg" alt="Cat entered the space"/>
           </div>
-          <form className='register-inputs' onSubmit={handleLogin}>
+          <form onSubmit={handleLogin}>
             <h2>Вход</h2>
+            <div className='register-inputs'>
             <div>
-            <input type="text" id="login" value={login} onChange={(event) => setLogin(event.target.value)} placeholder="username" />
+            <input type="text" placeholder="email" onChange={handleInputChange} name="login" value={authenticatingUser.login}  />
             </div>
             <div>
-            <input type="password" id="password" value={password} onChange={(event) => setPassword(event.target.value)} placeholder="password"/>
+            <input type="password" placeholder="password" onChange={handleInputChange} name="password" value={authenticatingUser.password} />
             </div>
-            <button type="submit" onClick={goToMainform}>Войти</button>
+            <button type="submit">Войти</button>
+            </div>
             <p className="message">Not registered? <a onClick={goToRegister}>Create an account</a></p>
           </form>
         </div>

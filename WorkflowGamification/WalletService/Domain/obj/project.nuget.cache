@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xozcnhmJCaxvHnmhcZAMsMrezYJCrwL+gJVpVPcd6l/MLgWq5KHM2eI53kVz12sGo6E05KmZj2rL9th9gdrb4Q==",
+  "dgSpecHash": "nuLvD+8jkNXtni0bFHlrV0DkMRdR8K9omNIm9PFIRCetKvj9ci4qUqx+wCxrLDMpXBoHXcF0FZY2u48rFz7Ndw==",
   "success": true,
-  "projectFilePath": "D:\\cpp\\FullCompilation\\WorkflowGamification\\WalletService\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\WalletService\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

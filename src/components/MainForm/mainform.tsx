@@ -1,13 +1,12 @@
-import { Carousel } from "./MainForm/Carousel"
-import '../css/mainform.css';
-import '../css/sign.css';
+import '../../css/mainform.css';
+import '../../css/sign.css';
 import { useNavigate } from'react-router-dom';
-import img1 from '../assets/tasklist.png';
-import img2 from '../assets/mytasks.png';
-import img3 from '../assets/saloon.png';
-import img4 from '../assets/home.png';
+import img1 from '../../assets/tasklist.png';
+import img2 from '../../assets/mytasks.png';
+import img3 from '../../assets/saloon.png';
+import img4 from '../../assets/home.png';
 import React, { useState } from 'react';
-import '../css/imagepanel.css';
+import '../../css/imagepanel.css';
 
 
 export const MainForm = () => {

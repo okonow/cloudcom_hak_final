@@ -58,6 +58,38 @@
   
 }
 
+
+.alltasks-container .input-fields {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+}
+
+.alltasks-container .input-field {
+  width: 80%;
+  height: auto;
+  
+
+}
+
+.alltasks-container .create-task-form .input-fields .input-field textarea {
+  width: 100%;
+  height: auto;
+  resize:none;
+  padding: 0;
+  border-width: 0;
+  border-radius: 2%;
+}
+
+.alltasks-container .create-task-form .input-fields .input-field input {
+  width: 100%;
+  padding: 0;
+  border-width: 0;
+  border-radius: 2%;
+}
+
 .alltasks-container .tasklist {
   display: flex;
   flex-flow: column;

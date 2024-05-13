@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Login } from './components/login'
-import { Register } from './components/register';
-import { MainForm } from './components/mainform';
-import { AllTasks} from './components/alltasks';
-import { MyTasks } from './components/mytasks';
+import { Login } from './components/Sign/login';
+import { Register } from './components/Sign/register';
+import { MainForm } from './components/MainForm/mainform';
+import { AllTasks} from './components/Tasks/alltasks';
+import { MyTasks } from './components/Tasks/mytasks';
 import { Store } from './components/store';
 import { Rating } from './components/rating';
-import { DirectorTasks } from './components/directortask';
+import { DirectorTasks } from './components/Tasks/directortasks';
 import { AdminForm } from './components/AdminForm/adminform';
 
 
