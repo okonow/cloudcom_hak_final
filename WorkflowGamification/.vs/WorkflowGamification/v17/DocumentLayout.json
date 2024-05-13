@@ -1,20 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sartu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FullCompilation\\WorkflowGamification\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{7C480C1E-8AEF-4757-A017-DDCA463355FA}|WalletService\\WalletService\\WalletService.csproj|c:\\users\\sartu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fullcompilation\\workflowgamification\\walletservice\\walletservice\\controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C480C1E-8AEF-4757-A017-DDCA463355FA}|WalletService\\WalletService\\WalletService.csproj|solutionrelative:walletservice\\walletservice\\controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DF3378B-6E9B-4B06-996A-128491188559}|SagasApiGateway\\SagasApiGateway.csproj|c:\\users\\sartu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fullcompilation\\workflowgamification\\sagasapigateway\\controllers\\usersagacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DF3378B-6E9B-4B06-996A-128491188559}|SagasApiGateway\\SagasApiGateway.csproj|solutionrelative:sagasapigateway\\controllers\\usersagacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C127EF68-50ED-46E0-9F02-B574FD9ADD1C}|ApiAccess\\ApiAccess.csproj|c:\\users\\sartu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fullcompilation\\workflowgamification\\apiaccess\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C127EF68-50ED-46E0-9F02-B574FD9ADD1C}|ApiAccess\\ApiAccess.csproj|solutionrelative:apiaccess\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    }
-  ],
+  "WorkspaceRootPath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,50 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WalletController.cs",
-              "DocumentMoniker": "C:\\Users\\sartu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FullCompilation\\WorkflowGamification\\WalletService\\WalletService\\Controllers\\WalletController.cs",
-              "RelativeDocumentMoniker": "WalletService\\WalletService\\Controllers\\WalletController.cs",
-              "ToolTip": "C:\\Users\\sartu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FullCompilation\\WorkflowGamification\\WalletService\\WalletService\\Controllers\\WalletController.cs",
-              "RelativeToolTip": "WalletService\\WalletService\\Controllers\\WalletController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T07:13:16.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserSagaController.cs",
-              "DocumentMoniker": "C:\\Users\\sartu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FullCompilation\\WorkflowGamification\\SagasApiGateway\\Controllers\\UserSagaController.cs",
-              "RelativeDocumentMoniker": "SagasApiGateway\\Controllers\\UserSagaController.cs",
-              "ToolTip": "C:\\Users\\sartu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FullCompilation\\WorkflowGamification\\SagasApiGateway\\Controllers\\UserSagaController.cs",
-              "RelativeToolTip": "SagasApiGateway\\Controllers\\UserSagaController.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAwD0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T07:11:09.762Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Ocelot.json",
-              "DocumentMoniker": "C:\\Users\\sartu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FullCompilation\\WorkflowGamification\\ApiAccess\\Ocelot.json",
-              "RelativeDocumentMoniker": "ApiAccess\\Ocelot.json",
-              "ToolTip": "C:\\Users\\sartu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FullCompilation\\WorkflowGamification\\ApiAccess\\Ocelot.json",
-              "RelativeToolTip": "ApiAccess\\Ocelot.json",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-13T04:37:14.402Z",
-              "EditorCaption": ""
             }
           ]
         }

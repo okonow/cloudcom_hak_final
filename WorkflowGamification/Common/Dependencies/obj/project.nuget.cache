@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZvNSEek9zmYsBwGtTvc/Y8lFBUUXgeog8+uE6tRpjC9gWJhH9Mmrm599DC+7LfMeDfX5PyY82vqm1VWJb3KDxg==",
+  "dgSpecHash": "9hZr+z735NVtRYIZK3aVY/OBaqiY3f12pzR2DyvnBxr0bw0WvoD+JgQnKdUF7c6tm2Q3qRE1RiUycrhnOPpMjg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj",
+  "projectFilePath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sartu\\.nuget\\packages\\masstransit\\8.2.2\\masstransit.8.2.2.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\masstransit.abstractions\\8.2.2\\masstransit.abstractions.8.2.2.nupkg.sha512",

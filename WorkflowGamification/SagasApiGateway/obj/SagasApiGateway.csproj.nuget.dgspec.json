@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\SagasApiGateway\\SagasApiGateway.csproj": {}
+    "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\SagasApiGateway\\SagasApiGateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\Common\\Contracts\\Contracts.csproj": {
+    "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\Common\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\Common\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\Common\\Contracts\\Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\Common\\Contracts\\Contracts.csproj",
+        "projectPath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\Common\\Contracts\\Contracts.csproj",
         "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\Common\\Contracts\\obj\\",
+        "outputPath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\Common\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sartu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj": {
-                "projectPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj"
+              "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj": {
+                "projectPath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj": {
+    "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj",
+        "projectUniqueName": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj",
         "projectName": "Dependencies",
-        "projectPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj",
+        "projectPath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj",
         "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\obj\\",
+        "outputPath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sartu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -142,14 +142,14 @@
         }
       }
     },
-    "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\SagasApiGateway\\SagasApiGateway.csproj": {
+    "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\SagasApiGateway\\SagasApiGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\SagasApiGateway\\SagasApiGateway.csproj",
+        "projectUniqueName": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\SagasApiGateway\\SagasApiGateway.csproj",
         "projectName": "SagasApiGateway",
-        "projectPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\SagasApiGateway\\SagasApiGateway.csproj",
+        "projectPath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\SagasApiGateway\\SagasApiGateway.csproj",
         "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\SagasApiGateway\\obj\\",
+        "outputPath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\SagasApiGateway\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sartu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -166,8 +166,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\Common\\Contracts\\Contracts.csproj": {
-                "projectPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\Common\\Contracts\\Contracts.csproj"
+              "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\Common\\Contracts\\Contracts.csproj": {
+                "projectPath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\Common\\Contracts\\Contracts.csproj"
               }
             }
           }
@@ -187,6 +187,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.6, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"

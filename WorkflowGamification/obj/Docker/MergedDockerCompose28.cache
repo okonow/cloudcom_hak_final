@@ -1,0 +1,48 @@
+name: dockercompose8829081568780907708
+services:
+  apiaccess:
+    build:
+      context: D:\cpp\Polygon\FullCompilation\WorkflowGamification
+      dockerfile: ApiAccess/Dockerfile
+    image: apiaccess
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "7024"
+        protocol: tcp
+  consoleapp1:
+    build:
+      context: D:\cpp\Polygon\FullCompilation\WorkflowGamification
+      dockerfile: ConsoleApp1/Dockerfile
+    image: consoleapp1
+    networks:
+      default: null
+  sagasapigateway:
+    build:
+      context: D:\cpp\Polygon\FullCompilation\WorkflowGamification
+      dockerfile: SagasApiGateway/Dockerfile
+    image: sagasapigateway
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "7056"
+        protocol: tcp
+  servicessaga:
+    build:
+      context: D:\cpp\Polygon\FullCompilation\WorkflowGamification
+      dockerfile: Saga/ServicesSaga/Dockerfile
+    image: servicessaga
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "7099"
+        protocol: tcp
+networks:
+  default:
+    name: dockercompose8829081568780907708_default

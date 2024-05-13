@@ -2436,11 +2436,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\WalletService\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\WalletService\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\WalletService\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\WalletService\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\WalletService\\Infrastructure\\obj\\",
+      "outputPath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\WalletService\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sartu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2457,11 +2457,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\WalletService\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\WalletService\\Application\\Application.csproj"
+            "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\WalletService\\Application\\Application.csproj": {
+              "projectPath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\WalletService\\Application\\Application.csproj"
             },
-            "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\WalletService\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\WalletService\\Domain\\Domain.csproj"
+            "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\WalletService\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\WalletService\\Domain\\Domain.csproj"
             }
           }
         }

@@ -1,0 +1,145 @@
+name: dockercompose8829081568780907708
+services:
+  apiaccess:
+    build:
+      context: D:\cpp\Polygon\FullCompilation\WorkflowGamification
+      dockerfile: ApiAccess/Dockerfile
+    image: apiaccess
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "7024"
+        protocol: tcp
+  rabbitmq:
+    environment:
+      ERLANG_INSTALL_PATH_PREFIX: /opt/erlang
+      HOME: /var/lib/rabbitmq
+      LANG: C.UTF-8
+      LANGUAGE: C.UTF-8
+      LC_ALL: C.UTF-8
+      OPENSSL_INSTALL_PATH_PREFIX: /opt/openssl
+      PATH: /opt/rabbitmq/sbin:/opt/erlang/bin:/opt/openssl/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+      RABBITMQ_DATA_DIR: /var/lib/rabbitmq
+      RABBITMQ_HOME: /opt/rabbitmq
+      RABBITMQ_PGP_KEY_ID: 0x0A9AF2115F4687BD29803A206B73A36E6026DFCA
+      RABBITMQ_VERSION: 3.13.2
+    hostname: my-rabbit
+    image: rabbitmq:3-management
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 15672
+        published: "15672"
+        protocol: tcp
+      - mode: ingress
+        target: 5672
+        published: "5672"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /var/lib/rabbitmq
+        target: /var/lib/rabbitmq
+        bind:
+          create_host_path: true
+  sagasapigateway:
+    build:
+      context: D:\cpp\Polygon\FullCompilation\WorkflowGamification
+      dockerfile: SagasApiGateway/Dockerfile
+    depends_on:
+      rabbitmq:
+        condition: service_started
+        required: true
+    image: sagasapigateway
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "7056"
+        protocol: tcp
+  servicessaga:
+    build:
+      context: D:\cpp\Polygon\FullCompilation\WorkflowGamification
+      dockerfile: Saga/ServicesSaga/Dockerfile
+    depends_on:
+      rabbitmq:
+        condition: service_started
+        required: true
+    image: servicessaga
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "7099"
+        protocol: tcp
+  storeservice:
+    build:
+      context: D:\cpp\Polygon\FullCompilation\WorkflowGamification
+      dockerfile: CompanyStoreService/CompanyStoreService/Dockerfile
+    depends_on:
+      rabbitmq:
+        condition: service_started
+        required: true
+    image: storeservice
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "7124"
+        protocol: tcp
+  userauthenticationservice:
+    build:
+      context: D:\cpp\Polygon\FullCompilation\WorkflowGamification
+      dockerfile: UserAuthenticationService/UserAuthenticationService/Dockerfile
+    depends_on:
+      rabbitmq:
+        condition: service_started
+        required: true
+    image: userauthenticationservice
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "7256"
+        protocol: tcp
+  walletservice:
+    build:
+      context: D:\cpp\Polygon\FullCompilation\WorkflowGamification
+      dockerfile: WalletService/WalletService/Dockerfile
+    depends_on:
+      rabbitmq:
+        condition: service_started
+        required: true
+    image: walletservice
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "7195"
+        protocol: tcp
+  workspaceservice:
+    build:
+      context: D:\cpp\Polygon\FullCompilation\WorkflowGamification
+      dockerfile: CompanyWorkspaceService/CompanyWorkspaceService/Dockerfile
+    depends_on:
+      rabbitmq:
+        condition: service_started
+        required: true
+    image: workspaceservice
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "7057"
+        protocol: tcp
+networks:
+  default:
+    name: dockercompose8829081568780907708_default

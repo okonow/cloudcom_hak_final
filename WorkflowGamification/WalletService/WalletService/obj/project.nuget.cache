@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c1OB++e0xcI+r0KyGmxcV3Pva4KcnZKTthv4Bdp+By6IgxCVEefQlNnF0IZaJdrvUFN60PK9S0JY4pHAvVg1tQ==",
+  "dgSpecHash": "cTqk41/DWoDoghj9AOfkrJt7wIKn7AUBvSgDlFWo2w9wrOwoxoj6CX9CXTXtpXO1XlS2b7ELjv0bJrEKPsZgNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\WalletService\\WalletService\\WalletService.csproj",
+  "projectFilePath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\WalletService\\WalletService\\WalletService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sartu\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\masstransit\\8.2.2\\masstransit.8.2.2.nupkg.sha512",
@@ -38,6 +38,7 @@
     "C:\\Users\\sartu\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\7.1.2\\microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.1.2\\microsoft.identitymodel.tokens.7.1.2.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\sartu\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\npgsql\\8.0.2\\npgsql.8.0.2.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.2\\npgsql.entityframeworkcore.postgresql.8.0.2.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\quikgraph\\2.5.0\\quikgraph.2.5.0.nupkg.sha512",

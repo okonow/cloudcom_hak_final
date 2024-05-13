@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ON4eQBaQnAwCkEe8Xg0dLTznIcg5Iy4WkWkpun9HmFUDs1/QFE19WCZf6EYOStQ1PbWNQxMDYBV10wKkZDJxBQ==",
+  "dgSpecHash": "iyyQ1hNiE+++dMAyZbmHcpva7UDn/Jvnr8NJeNcEGARW9sQB6cjtlk5bYwftej+Cg8R26JkLqIm+UZ+/5CS6JQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\SagasApiGateway\\SagasApiGateway.csproj",
+  "projectFilePath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\SagasApiGateway\\SagasApiGateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sartu\\.nuget\\packages\\masstransit\\8.2.2\\masstransit.8.2.2.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\masstransit.abstractions\\8.2.2\\masstransit.abstractions.8.2.2.nupkg.sha512",
@@ -20,6 +20,7 @@
     "C:\\Users\\sartu\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\sartu\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\quikgraph\\2.5.0\\quikgraph.2.5.0.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\quikgraph.graphviz\\2.5.0\\quikgraph.graphviz.2.5.0.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512",

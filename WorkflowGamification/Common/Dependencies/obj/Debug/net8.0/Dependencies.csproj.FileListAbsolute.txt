@@ -48,3 +48,15 @@ C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamifica
 C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\Common\Dependencies\obj\Debug\net8.0\refint\Dependencies.dll
 C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\Common\Dependencies\obj\Debug\net8.0\Dependencies.pdb
 C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\Common\Dependencies\obj\Debug\net8.0\ref\Dependencies.dll
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\Common\Dependencies\bin\Debug\net8.0\Dependencies.deps.json
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\Common\Dependencies\bin\Debug\net8.0\Dependencies.dll
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\Common\Dependencies\bin\Debug\net8.0\Dependencies.pdb
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\Common\Dependencies\obj\Debug\net8.0\Dependencies.csproj.AssemblyReference.cache
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\Common\Dependencies\obj\Debug\net8.0\Dependencies.GeneratedMSBuildEditorConfig.editorconfig
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\Common\Dependencies\obj\Debug\net8.0\Dependencies.AssemblyInfoInputs.cache
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\Common\Dependencies\obj\Debug\net8.0\Dependencies.AssemblyInfo.cs
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\Common\Dependencies\obj\Debug\net8.0\Dependencies.csproj.CoreCompileInputs.cache
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\Common\Dependencies\obj\Debug\net8.0\Dependencies.dll
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\Common\Dependencies\obj\Debug\net8.0\refint\Dependencies.dll
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\Common\Dependencies\obj\Debug\net8.0\Dependencies.pdb
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\Common\Dependencies\obj\Debug\net8.0\ref\Dependencies.dll

@@ -11,10 +11,36 @@ namespace UserAuthenticationService.Controllers
     [ApiController]
     public class UserController(
         IUserService userService,
-        ITokenService tokenService) : BaseController
+        ITokenService tokenService,
+        IRoleService roleService) : BaseController
     {
         private readonly IUserService _userService = userService;
         private readonly ITokenService _tokenService = tokenService;
+        private readonly IRoleService _roleService = roleService;
+
+        // TODO: временно
+        [HttpPost]
+        public async Task<IActionResult> CreateAdminAsync()
+        {
+            var id = await _userService.CreateUserAsync(new ApplicationUser
+            {
+                FirstName = "Test",
+                LastName = "Test",
+                Email = "Admin@q.ru",
+                PasswordHash = "AdminN_0102"
+            });
+            await _roleService.CreateRoleAsync("Employee");
+            await _roleService.CreateRoleAsync("Director");
+            await _roleService.CreateRoleAsync("Administrator");
+            await _roleService.AddRoleToUserAsync(id.UserId.ToString(), "Administrator");
+            return Ok(new
+            {
+                AdminId = id,
+                Login = "Admin@q.ru",
+                Password = "AdmiN_0102"
+            });
+        }
+
 
         [HttpPost]
         public async Task<IActionResult> CreateNewUserAsync([FromBody] CreateUserRequest request)

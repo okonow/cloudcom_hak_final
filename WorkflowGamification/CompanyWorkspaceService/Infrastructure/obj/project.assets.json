@@ -2669,11 +2669,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\cpp\\FullCompilation\\WorkflowGamification\\CompanyWorkspaceService\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\CompanyWorkspaceService\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "D:\\cpp\\FullCompilation\\WorkflowGamification\\CompanyWorkspaceService\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\CompanyWorkspaceService\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
-      "outputPath": "D:\\cpp\\FullCompilation\\WorkflowGamification\\CompanyWorkspaceService\\Infrastructure\\obj\\",
+      "outputPath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\CompanyWorkspaceService\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sartu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2690,8 +2690,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\cpp\\FullCompilation\\WorkflowGamification\\CompanyWorkspaceService\\Application\\Application.csproj": {
-              "projectPath": "D:\\cpp\\FullCompilation\\WorkflowGamification\\CompanyWorkspaceService\\Application\\Application.csproj"
+            "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\CompanyWorkspaceService\\Application\\Application.csproj": {
+              "projectPath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\CompanyWorkspaceService\\Application\\Application.csproj"
             }
           }
         }

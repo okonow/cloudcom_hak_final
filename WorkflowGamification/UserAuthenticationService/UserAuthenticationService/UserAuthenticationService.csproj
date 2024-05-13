@@ -8,6 +8,7 @@
     <EnableSdkContainerDebugging>True</EnableSdkContainerDebugging>
     <UserSecretsId>9714fe36-439d-43c6-9f7e-0298ee2d76c4</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..</DockerfileContext>
   </PropertyGroup>
 
   <ItemGroup>

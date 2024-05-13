@@ -41,3 +41,46 @@ C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamifica
 C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\SagasApiGateway.pdb
 C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\SagasApiGateway.genruntimeconfig.cache
 C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\ref\SagasApiGateway.dll
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\appsettings.Development.json
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\appsettings.json
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\SagasApiGateway.exe
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\SagasApiGateway.deps.json
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\SagasApiGateway.runtimeconfig.json
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\SagasApiGateway.dll
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\SagasApiGateway.pdb
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\MassTransit.dll
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\MassTransit.Abstractions.dll
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\MassTransit.StateMachineVisualizer.dll
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\QuikGraph.dll
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\QuikGraph.Graphviz.dll
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\RabbitMQ.Client.dll
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\Contracts.dll
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\Dependencies.dll
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\Contracts.pdb
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\Dependencies.pdb
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\SagasApiGateway.csproj.AssemblyReference.cache
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\SagasApiGateway.GeneratedMSBuildEditorConfig.editorconfig
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\SagasApiGateway.AssemblyInfoInputs.cache
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\SagasApiGateway.AssemblyInfo.cs
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\SagasApiGateway.csproj.CoreCompileInputs.cache
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\SagasApiGateway.MvcApplicationPartsAssemblyInfo.cs
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\SagasApiGateway.MvcApplicationPartsAssemblyInfo.cache
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\staticwebassets.build.json
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\staticwebassets.development.json
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\staticwebassets\msbuild.SagasApiGateway.Microsoft.AspNetCore.StaticWebAssets.props
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\staticwebassets\msbuild.build.SagasApiGateway.props
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SagasApiGateway.props
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SagasApiGateway.props
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\staticwebassets.pack.json
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\scopedcss\bundle\SagasApiGateway.styles.css
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\SagasApi.B1E0B3A3.Up2Date
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\SagasApiGateway.dll
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\refint\SagasApiGateway.dll
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\SagasApiGateway.pdb
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\SagasApiGateway.genruntimeconfig.cache
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\ref\SagasApiGateway.dll

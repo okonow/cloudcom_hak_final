@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Px0tqWECKyi3gHpcUkCw2ArckQtDVTHX72Ls9eZ0A73pSVi/GuNvPaPSKM7y1+eHsSoyGQl3YWS/aEOt/9OFMQ==",
+  "dgSpecHash": "VzxeFCiwILimYk/Sh2Y/P8lC6VPCnvX7aYx4YPsryjpLK7MTW3OR7aEI/TtuALw28+Dt8kRU0GBasLmjufb4BA==",
   "success": true,
-  "projectFilePath": "D:\\cpp\\FullCompilation\\WorkflowGamification\\CompanyWorkspaceService\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\CompanyWorkspaceService\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sartu\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512",

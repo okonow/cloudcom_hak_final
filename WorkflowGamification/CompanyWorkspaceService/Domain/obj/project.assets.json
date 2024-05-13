@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\cpp\\FullCompilation\\WorkflowGamification\\CompanyWorkspaceService\\Domain\\Domain.csproj",
+      "projectUniqueName": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\CompanyWorkspaceService\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "D:\\cpp\\FullCompilation\\WorkflowGamification\\CompanyWorkspaceService\\Domain\\Domain.csproj",
+      "projectPath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\CompanyWorkspaceService\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
-      "outputPath": "D:\\cpp\\FullCompilation\\WorkflowGamification\\CompanyWorkspaceService\\Domain\\obj\\",
+      "outputPath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\CompanyWorkspaceService\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sartu\\AppData\\Roaming\\NuGet\\NuGet.Config",

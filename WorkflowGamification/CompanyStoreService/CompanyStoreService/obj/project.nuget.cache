@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Izjc0P6Dcn9zdv86z/79M/XdkOTsvNBEgcaKZ+e+X6G8xghhubIERqAZpHwC9gnN0yA990lsrKrbD0/ta070Qw==",
+  "dgSpecHash": "Ml3Nsb8YQYoMXnkBc7B4pkOghO4CjMRP8mNoI/1CesAI8WD5pLU9TYquJEKNsecStMhkz54535Wt3+Ux6FQcsA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\CompanyStoreService\\CompanyStoreService.csproj",
+  "projectFilePath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\CompanyStoreService\\CompanyStoreService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sartu\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
@@ -47,6 +47,7 @@
     "C:\\Users\\sartu\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\7.1.2\\microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.1.2\\microsoft.identitymodel.tokens.7.1.2.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\sartu\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\npgsql\\8.0.2\\npgsql.8.0.2.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.2\\npgsql.entityframeworkcore.postgresql.8.0.2.nupkg.sha512",

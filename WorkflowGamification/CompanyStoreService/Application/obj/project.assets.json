@@ -675,11 +675,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Application\\Application.csproj",
+      "projectUniqueName": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Application\\Application.csproj",
+      "projectPath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Application\\obj\\",
+      "outputPath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sartu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -696,8 +696,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj"
+            "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj"
             }
           }
         }

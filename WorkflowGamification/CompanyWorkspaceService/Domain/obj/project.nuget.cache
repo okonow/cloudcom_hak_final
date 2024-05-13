@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KLbRSqtEe9VrKzm9CsqALQ5hmXajh4IZ/ALrFnTaW2E0Q2i5P7uYYBaFKMR8YxrGIichms6dRS6SCgD5GhEv9A==",
+  "dgSpecHash": "php+YAYCQ+gsP2jzOFuwpBKVoO8F501RYr/txKZxpyHRIUlniLzlRs/mVOgyPdouW2XsZIzowMlK1RAItEtFjA==",
   "success": true,
-  "projectFilePath": "D:\\cpp\\FullCompilation\\WorkflowGamification\\CompanyWorkspaceService\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\CompanyWorkspaceService\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

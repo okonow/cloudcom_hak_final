@@ -1,0 +1,134 @@
+version: '3.4'
+
+services:
+    apiaccess:
+        image: ${DOKER_REGISTRY-}apiaccess
+        build:
+            context: .
+            dockerfile: ApiAccess/Dockerfile
+        ports:
+        - "7024:8080"
+
+    sagasapigateway:
+        image: ${DOKER_REGISTRY-}sagasapigateway
+        build:
+            context: .
+            dockerfile: SagasApiGateway/Dockerfile
+        ports:
+        - "7056:8080"
+        depends_on:
+            - rabbitmq
+
+    servicessaga:
+        image: ${DOKER_REGISTRY-}servicessaga
+        build:
+            context: .
+            dockerfile: Saga/ServicesSaga/Dockerfile
+        ports:
+        - "7099:8080"
+        depends_on:
+            - rabbitmq
+
+    storeservice:
+        image: ${DOKER_REGISTRY-}storeservice
+        build:
+            context: .
+            dockerfile: CompanyStoreService/CompanyStoreService/Dockerfile
+        ports:
+        - "7124:8080"
+        depends_on:
+            - rabbitmq
+            - storeservicedb
+        environment:
+            DATABASE_URL: postgres://postgres:artur123@db:5431/StoreServiceDb
+
+    userauthenticationservice:
+        image: ${DOKER_REGISTRY-}userauthenticationservice
+        build:
+            context: .
+            dockerfile: UserAuthenticationService/UserAuthenticationService/Dockerfile
+        ports:
+        - "7256:8080"
+        depends_on:
+            - rabbitmq
+            - identityservicedb
+        environment:
+            DATABASE_URL: postgres://postgres:artur123@db:5431/identityservicedb
+
+    walletservice:
+        image: ${DOKER_REGISTRY-}walletservice
+        build:
+            context: .
+            dockerfile: WalletService/WalletService/Dockerfile
+        ports:
+        - "7195:8080"
+        depends_on:
+            - rabbitmq
+            - walletdb
+        environment:
+            DATABASE_URL: postgres://postgres:artur123@db:5434/UserWalletDb   
+        
+    workspaceservice:
+        image: ${DOKER_REGISTRY-}workspaceservice
+        build:
+            context: .
+            dockerfile: CompanyWorkspaceService/CompanyWorkspaceService/Dockerfile
+        ports:
+        - "7057:8080"
+        depends_on:
+            - rabbitmq
+            - workspacedb
+        environment:
+            DATABASE_URL: postgres://postgres:artur123@db:5432/WorkspaceDb
+    #rabbitmq
+    rabbitmq:
+        image: "rabbitmq:3-management"
+        hostname: "my-rabbit"
+        volumes:
+          - /var/lib/rabbitmq:/var/lib/rabbitmq
+        ports:
+          - "15672:15672"
+          - "5672:5672"
+     #db 
+    identityservicedb:
+        image: "postgres"
+        container_name: IdentityServiceDb
+        environment:
+            POSTGRES_DB: IdentityServiceDb
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: artur123
+        ports:
+        - "5431:5431"
+
+    workspacedb:
+        image: "postgres"
+        container_name: WorkspaceDb
+        environment:
+            POSTGRES_DB: WorkspaceDb
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: artur123
+        ports:
+        - "5432:5432"
+
+
+    storeservicedb:
+        image: "postgres"
+        container_name: StoreServiceDb
+        environment:
+            POSTGRES_DB: StoreServiceDb
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: artur123
+        ports:
+        - "5433:5433"
+
+
+    walletdb:
+        image: "postgres"
+        container_name: UserWalletDb
+        environment:
+            POSTGRES_DB: UserWalletDb
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: artur123
+        ports:
+        - "5434:5434"
+

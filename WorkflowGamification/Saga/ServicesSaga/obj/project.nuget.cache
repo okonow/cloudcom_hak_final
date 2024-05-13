@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rbfwc6FNBRJbvYSbTl8GrRUbZy3Lpfw+8vm5R5AuZvebxHOPMrgd/yPSWdaJvPBIoAXj4fHxHvSrIYzn2gc2WA==",
+  "dgSpecHash": "KfBhq6t+85TI+z2K3Us+UJMCVNB8qQ3DOdCp9Fq2yTkZDIH94xPPASuSSWFf6DBx5JMlB5RTFrbWhD0Q3f21Kg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\Saga\\ServicesSaga\\ServicesSaga.csproj",
+  "projectFilePath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\Saga\\ServicesSaga\\ServicesSaga.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sartu\\.nuget\\packages\\masstransit\\8.2.2\\masstransit.8.2.2.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\masstransit.abstractions\\8.2.2\\masstransit.abstractions.8.2.2.nupkg.sha512",
@@ -35,6 +35,7 @@
     "C:\\Users\\sartu\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\7.1.2\\microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.1.2\\microsoft.identitymodel.tokens.7.1.2.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\sartu\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\npgsql\\8.0.3\\npgsql.8.0.3.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.4\\npgsql.entityframeworkcore.postgresql.8.0.4.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\quikgraph\\2.5.0\\quikgraph.2.5.0.nupkg.sha512",

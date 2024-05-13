@@ -55,3 +55,14 @@ C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamifica
 C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\CompanyWorkspaceService\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\CompanyWorkspaceService\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\CompanyWorkspaceService\Domain\obj\Debug\net8.0\ref\Domain.dll
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\CompanyWorkspaceService\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\CompanyWorkspaceService\Domain\bin\Debug\net8.0\Domain.dll
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\CompanyWorkspaceService\Domain\bin\Debug\net8.0\Domain.pdb
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\CompanyWorkspaceService\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\CompanyWorkspaceService\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\CompanyWorkspaceService\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\CompanyWorkspaceService\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\CompanyWorkspaceService\Domain\obj\Debug\net8.0\Domain.dll
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\CompanyWorkspaceService\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\CompanyWorkspaceService\Domain\obj\Debug\net8.0\Domain.pdb
+D:\cpp\Polygon\FullCompilation\WorkflowGamification\CompanyWorkspaceService\Domain\obj\Debug\net8.0\ref\Domain.dll

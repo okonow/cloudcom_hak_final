@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5pBhv2l878M1VsKyd1nXnNcsrpmNe5+LMEeZAAZEjyNm1CguF/olYAf0tnPaFpzVLnq6WH0o0cmLXh2F3mru3w==",
+  "dgSpecHash": "J67Jah88X3XdkGcsc74ENbe5C1wLfpudBYYvHU/LjQm4pJ7G9lXjhvE9w4g30yLl2IP7+VSL0I3ko+JAEoxkuA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sartu\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

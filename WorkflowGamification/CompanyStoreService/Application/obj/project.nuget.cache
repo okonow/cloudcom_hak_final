@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vmQBvDPsmQNMxGabop8RFZ1ORxOh1YJwHAIkROU/PeZAgbUFoymMhX4Rh+9+ZD/IpSQosq71BUiRtKnfABYeWA==",
+  "dgSpecHash": "tIQQv3sPWJ3yK7QO4RxJZf7/wzSkidCCLn332boEq41Lc0d530tF+uZMlHwEDPhhm1OEOJoYPMqkpZX8jMi5ZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Application\\Application.csproj",
+  "projectFilePath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sartu\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",

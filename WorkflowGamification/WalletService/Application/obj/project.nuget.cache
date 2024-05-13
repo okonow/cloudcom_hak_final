@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "//H0+v299Y9zn0Den/ebb2Oz7wqZp6wf9HEUg0FMqc3o/tz2d5aD7Reyd1UhGOPu9kwtZbeclThv6DYwzLjhqw==",
+  "dgSpecHash": "0xxKaUfAKeby/Zoq8kbBjpwKknHGC9zN1IA5sI951z0+Px49ahCL/SLmBdZOM2mFrLAXMa4rgDau3mkpgL2qYg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\WalletService\\Application\\Application.csproj",
+  "projectFilePath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\WalletService\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sartu\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",

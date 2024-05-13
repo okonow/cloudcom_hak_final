@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eL+mOA/T8FzI5Ls6FXI5UmC5IHioF+f0g/oMuVq4TtLx1F2ESmz0KfT5tEVS1P9SPYwUasBza6He2THK6RqoVg==",
+  "dgSpecHash": "qhOD/RZrxge5LN/tsYD6bPcHt2P0pVFahPrzRvjkzXNocIuhb7QHeBcVnLUMyp9DI1JAeqfx4t7ZFtfP4o8lVQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\WalletService\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "D:\\cpp\\Polygon\\FullCompilation\\WorkflowGamification\\WalletService\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sartu\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
