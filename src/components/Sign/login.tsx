@@ -66,7 +66,7 @@ interface LoginRequest{
             <div>
             <input type="password" placeholder="password" onChange={handleInputChange} name="password" value={authenticatingUser.password} />
             </div>
-            <button type="submit">Войти</button>
+            <button type="submit" onClick={goToMainform}>Войти</button>
             </div>
             <p className="message">Not registered? <a onClick={goToRegister}>Create an account</a></p>
           </form>
