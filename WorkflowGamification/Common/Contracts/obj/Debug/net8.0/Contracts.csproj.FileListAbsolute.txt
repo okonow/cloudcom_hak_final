@@ -53,3 +53,19 @@ C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamifica
 C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\refint\Contracts.dll
 C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\Contracts.pdb
 C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\ref\Contracts.dll
+C:\projects\cloudcom_hak_final\WorkflowGamification\Common\Contracts\bin\Debug\net8.0\Contracts.deps.json
+C:\projects\cloudcom_hak_final\WorkflowGamification\Common\Contracts\bin\Debug\net8.0\Contracts.dll
+C:\projects\cloudcom_hak_final\WorkflowGamification\Common\Contracts\bin\Debug\net8.0\Contracts.pdb
+C:\projects\cloudcom_hak_final\WorkflowGamification\Common\Contracts\bin\Debug\net8.0\Dependencies.dll
+C:\projects\cloudcom_hak_final\WorkflowGamification\Common\Contracts\bin\Debug\net8.0\Dependencies.pdb
+C:\projects\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\Contracts.csproj.AssemblyReference.cache
+C:\projects\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\Contracts.AssemblyInfoInputs.cache
+C:\projects\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\Contracts.AssemblyInfo.cs
+C:\projects\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\Contracts.csproj.CoreCompileInputs.cache
+C:\projects\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\Contracts.sourcelink.json
+C:\projects\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\Contracts.csproj.Up2Date
+C:\projects\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\Contracts.dll
+C:\projects\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\refint\Contracts.dll
+C:\projects\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\Contracts.pdb
+C:\projects\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\ref\Contracts.dll

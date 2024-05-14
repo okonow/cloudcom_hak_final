@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from'react-router-dom';
-import '../../css/alltasks.css';
+import '../../../css/alltasks.css';
 import { DirectorTaskCard } from './directortaskcard';
-import { sendRequestWithAccessWithId, sendRequestWithAccess } from '../Sign/sendrequest';
+import { sendRequestWithAccessWithId, sendRequestWithAccess } from '../../Sign/sendrequest';
 
 interface Task {
   id: string;
@@ -22,6 +22,21 @@ interface TaskCreate {
 
 
 export const DirectorTasks: React.FC = () => {
+
+  const [activeTab, setActiveTab] = useState('done');
+  const renderComponent = () => {
+    switch (activeTab) {
+      case 'done':
+        return <DoneTasksDirector />;
+      case 'doing':
+        return <DoingTasksDirector />;
+      case 'untaken':
+        return <UntakenTasksDirector />;
+      default:
+        return <DoneTasksDirector />;
+    }
+  };
+
   const [tasks, setTasks] = useState<Task[]>([]);
   const [newTaskId, setNewTaskId] = useState('');
   const [newTitle, setNewTitle] = useState('');
@@ -120,11 +135,14 @@ export const DirectorTasks: React.FC = () => {
         <div className='exit-icon' onClick={gotoMainForm}>
           <img src="src\assets\exit-icon.png" alt=""/>
         </div>
-        <div className='other-page'>
-          <h1>Невыполненные задачи</h1>
+        <div className='other-page' onClick={() => setActiveTab('done')}>
+          <h1>Выполненное</h1>
         </div>
-        <div className='now-page' onClick={gotoMyTasks}>
-          <h1>Выполненные задачи</h1>
+        <div className='other-page' onClick={() => setActiveTab('doing')}>
+          <h1>В процессе</h1>
+        </div>
+        <div className='other-page' onClick={() => setActiveTab('untaken')}>
+          <h1>Свободное</h1>
         </div>
       </div>
 
@@ -175,13 +193,7 @@ export const DirectorTasks: React.FC = () => {
       </form>
       </div>
 
-      <div className="tasklist">
-        {tasks1.map((task) => (
-          <DirectorTaskCard key={task.id} task={task} />
-        ))}
-
-
-      </div>
+      
     </div>
   </div>
     

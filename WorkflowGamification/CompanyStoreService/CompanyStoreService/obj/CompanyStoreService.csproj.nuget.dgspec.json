@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\CompanyStoreService\\CompanyStoreService.csproj": {}
+    "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\CompanyStoreService\\CompanyStoreService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\Common\\Contracts\\Contracts.csproj": {
+    "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\Common\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\Common\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\Common\\Contracts\\Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\Common\\Contracts\\Contracts.csproj",
-        "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\Common\\Contracts\\obj\\",
+        "projectPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\Common\\Contracts\\Contracts.csproj",
+        "packagesPath": "C:\\Users\\krian\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\Common\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sartu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\krian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj": {
-                "projectPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj"
+              "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj": {
+                "projectPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj"
               }
             }
           }
@@ -68,17 +68,17 @@
         }
       }
     },
-    "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj": {
+    "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj",
+        "projectUniqueName": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj",
         "projectName": "Dependencies",
-        "projectPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj",
-        "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\obj\\",
+        "projectPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj",
+        "packagesPath": "C:\\Users\\krian\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\Common\\Dependencies\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sartu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\krian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -142,17 +142,17 @@
         }
       }
     },
-    "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Application\\Application.csproj": {
+    "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Application\\obj\\",
+        "projectPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\krian\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sartu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\krian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -166,8 +166,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj"
+              "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj"
               }
             }
           }
@@ -220,17 +220,17 @@
         }
       }
     },
-    "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\CompanyStoreService\\CompanyStoreService.csproj": {
+    "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\CompanyStoreService\\CompanyStoreService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\CompanyStoreService\\CompanyStoreService.csproj",
+        "projectUniqueName": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\CompanyStoreService\\CompanyStoreService.csproj",
         "projectName": "CompanyStoreService",
-        "projectPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\CompanyStoreService\\CompanyStoreService.csproj",
-        "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\CompanyStoreService\\obj\\",
+        "projectPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\CompanyStoreService\\CompanyStoreService.csproj",
+        "packagesPath": "C:\\Users\\krian\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\CompanyStoreService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sartu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\krian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -244,20 +244,20 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\Common\\Contracts\\Contracts.csproj": {
-                "projectPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\Common\\Contracts\\Contracts.csproj"
+              "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\Common\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\Common\\Contracts\\Contracts.csproj"
               },
-              "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj": {
-                "projectPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj"
+              "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj": {
+                "projectPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj"
               },
-              "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Application\\Application.csproj"
+              "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Application\\Application.csproj": {
+                "projectPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Application\\Application.csproj"
               },
-              "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj"
+              "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Infrastructure\\Infrastructure.csproj"
+              "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -315,17 +315,17 @@
         }
       }
     },
-    "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj": {
+    "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Domain\\obj\\",
+        "projectPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\krian\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sartu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\krian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -375,17 +375,17 @@
         }
       }
     },
-    "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Infrastructure\\obj\\",
+        "projectPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\krian\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sartu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\krian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -399,8 +399,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\sartu\\OneDrive\\Рабочий стол\\FullCompilation\\WorkflowGamification\\CompanyStoreService\\Application\\Application.csproj"
+              "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Application\\Application.csproj": {
+                "projectPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Application\\Application.csproj"
               }
             }
           }

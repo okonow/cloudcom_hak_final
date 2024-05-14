@@ -41,3 +41,47 @@ C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamifica
 C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\SagasApiGateway.pdb
 C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\SagasApiGateway.genruntimeconfig.cache
 C:\Users\sartu\OneDrive\Рабочий стол\FullCompilation\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\ref\SagasApiGateway.dll
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\appsettings.Development.json
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\appsettings.json
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\SagasApiGateway.exe
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\SagasApiGateway.deps.json
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\SagasApiGateway.runtimeconfig.json
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\SagasApiGateway.dll
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\SagasApiGateway.pdb
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\MassTransit.dll
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\MassTransit.Abstractions.dll
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\MassTransit.StateMachineVisualizer.dll
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\QuikGraph.dll
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\QuikGraph.Graphviz.dll
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\Contracts.dll
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\Dependencies.dll
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\Contracts.pdb
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\bin\Debug\net8.0\Dependencies.pdb
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\SagasApiGateway.csproj.AssemblyReference.cache
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\SagasApiGateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\SagasApiGateway.AssemblyInfoInputs.cache
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\SagasApiGateway.AssemblyInfo.cs
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\SagasApiGateway.csproj.CoreCompileInputs.cache
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\SagasApiGateway.MvcApplicationPartsAssemblyInfo.cs
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\SagasApiGateway.MvcApplicationPartsAssemblyInfo.cache
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\SagasApiGateway.sourcelink.json
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\staticwebassets.build.json
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\staticwebassets.development.json
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\staticwebassets\msbuild.SagasApiGateway.Microsoft.AspNetCore.StaticWebAssets.props
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\staticwebassets\msbuild.build.SagasApiGateway.props
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SagasApiGateway.props
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SagasApiGateway.props
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\staticwebassets.pack.json
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\scopedcss\bundle\SagasApiGateway.styles.css
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\SagasApi.B1E0B3A3.Up2Date
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\SagasApiGateway.dll
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\refint\SagasApiGateway.dll
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\SagasApiGateway.pdb
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\SagasApiGateway.genruntimeconfig.cache
+C:\projects\cloudcom_hak_final\WorkflowGamification\SagasApiGateway\obj\Debug\net8.0\ref\SagasApiGateway.dll

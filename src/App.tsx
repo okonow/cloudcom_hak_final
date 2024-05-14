@@ -6,7 +6,7 @@ import { AllTasks} from './components/Tasks/alltasks';
 import { MyTasks } from './components/Tasks/mytasks';
 import { Store } from './components/store';
 import { Rating } from './components/rating';
-import { DirectorTasks } from './components/Tasks/directortasks';
+import { DirectorTasks } from './components/Tasks/Director/directortasks';
 import { AdminForm } from './components/AdminForm/adminform';
 
 

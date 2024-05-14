@@ -23,5 +23,8 @@ namespace UserAuthenticationService.Controllers
             var newToken = await _tokenService.RefreshAccessTokenAsync(userId);
             return Ok(newToken);
         }
+
+        [HttpGet]
+        public IActionResult GetToken() => Ok();
     }
 }

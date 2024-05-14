@@ -1,7 +1,7 @@
-export const sendRequest = async (url: string, body: any) => {
+const sendRequest = async (method: string, url: string, body: any) => {
     try {
         const response = await fetch(url, {
-            method: "POST",
+            method: method,
             headers: {
                 'Content-Type': 'application/json'
             },
@@ -19,7 +19,7 @@ export const sendRequest = async (url: string, body: any) => {
     }
 };
 
-export const sendRequestWithAccess = async (method: string, url: string, body: any, accessToken: any) => {
+ const sendRequest = async (method: string, url: string, body: any, accessToken?: any) => {
     try {
         const response = await fetch(url, {
             method: method,
@@ -42,7 +42,7 @@ export const sendRequestWithAccess = async (method: string, url: string, body: a
 };
 
 
-export const sendRequestWithAccessWithId = async (method: string, url: string, body: any, accessToken: any, id: string) => {
+const sendRequestWithAccessWithId = async (method: string, url: string, body: any, accessToken: any, id: string) => {
     try {
         const response = await fetch(url, {
             method: method,
@@ -66,3 +66,43 @@ export const sendRequestWithAccessWithId = async (method: string, url: string, b
 };
 
 
+export const sendGetRequest = async (url: string, accessToken: any) => {
+    try {
+        const response = await fetch(url, {
+            method: 'GET',
+            headers: {
+                "Authorization": `Bearer ${accessToken}`
+            }
+        });
+        
+        if (response.ok) {
+            return await response.json();
+        } else {
+            throw new Error('Ошибка при выполнении запроса');
+        }
+    } catch (error) {
+        console.error('Ошибка:', error);
+        throw new Error('Произошла ошибка при обращении к серверу');
+    }
+};
+
+export const sendGetRequestId = async (url: string, accessToken: any, id: string) => {
+    try {
+        const response = await fetch(url, {
+            method: 'GET',
+            headers: {
+                "departmentId": id,
+                "Authorization": `Bearer ${accessToken}`
+            }
+        });
+        
+        if (response.ok) {
+            return await response.json();
+        } else {
+            throw new Error('Ошибка при выполнении запроса');
+        }
+    } catch (error) {
+        console.error('Ошибка:', error);
+        throw new Error('Произошла ошибка при обращении к серверу');
+    }
+};
