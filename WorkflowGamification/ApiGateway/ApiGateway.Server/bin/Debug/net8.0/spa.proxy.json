@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:5173",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "D:\\CS\\ApiGateway\\ApiGateway.Server\\..\\apigateway.client",
+"WorkingDirectory": "C:\\projects\\моё творение\\cloudcom_hak_final\\WorkflowGamification\\ApiGateway\\ApiGateway.Server\\..\\apigateway.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from'react-router-dom';
 import '../../css/alltasks.css';
 import { TaskCard } from './alltaskcard';
-import { sendGetRequestWithId} from '../sendrequest';
+import { sendGetRequest } from '../sendrequest';
 import Cookies from 'js-cookie';
 
 interface Task {
@@ -46,9 +46,9 @@ export const AllTasks: React.FC = () => {
   useEffect(() => {
     const fetchTasks = async () => {
       try {
-        const userId = localStorage.get('userId');
+        // const userId = localStorage.get('userId');
         const accessToken = localStorage.getItem('accessToken');
-        const response = await sendGetRequestWithId("https://localhost:7024/api/Job/GetFreeJobsInDepartment", accessToken, userId );
+        const response = await sendGetRequest("https://localhost:7288/WorkspaceApi/Job/GetFreeJobsInDepartment", accessToken);
         console.log('Ответ сервера:', response);
         setTasks(response);
       } catch (error) {

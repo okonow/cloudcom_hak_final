@@ -19,8 +19,9 @@ namespace UserAuthenticationService.Consumers.UserConsumers
                 var user = new ApplicationUser
                 {
                     Id = receivedData.Id.ToString(),
-                    FirstName = receivedData.FristName,
-                    LastName = receivedData.LatName,
+                    FirstName = receivedData.FirstName,
+                    MiddleName = receivedData.MiddleName,
+                    LastName = receivedData.LastName,
                     Email = receivedData.Email,
                     PasswordHash = receivedData.Password
                 };

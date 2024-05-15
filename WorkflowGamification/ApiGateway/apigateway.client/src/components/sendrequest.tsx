@@ -3,8 +3,9 @@ export const sendPostRequest = async (url: string, body: any) => {
         const response = await fetch(url, {
             method: "POST",
             headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
             },
+            credentials: 'include',
             body: JSON.stringify(body)
         });
         
@@ -70,6 +71,7 @@ export const sendGetRequest = async (url: string, accessToken: any) => {
     try {
         const response = await fetch(url, {
             method: 'GET',
+            credentials: 'include',
             headers: {
                 "Authorization": `Bearer ${accessToken}`
             }

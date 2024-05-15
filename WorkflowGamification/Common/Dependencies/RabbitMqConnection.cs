@@ -2,7 +2,7 @@
 {
     public class RabbitMqConnection
     {
-        public const string HOST = "rabbitmq";
+        public const string HOST = "localhost";
 
         public const string USERNAME = "guest";
 

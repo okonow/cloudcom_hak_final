@@ -1,1 +1,2 @@
 D:\CS\ApiGateway\apigateway.client\obj\Debug\apigateway.client.esproj.CoreCompileInputs.cache
+C:\projects\ApiGateway\apigateway.client\obj\Debug\apigateway.client.esproj.CoreCompileInputs.cache

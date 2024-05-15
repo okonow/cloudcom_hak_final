@@ -36,12 +36,12 @@ interface LoginRequest{
         console.log(authenticatingUser);
         try {
             //sendRequest("POST", "/User/CreateNewUser", authenticateUserRequest);
-            console.log('Ответ сервера:', sendPostRequest("https://localhost:7024/SagaApi/UserSaga/AuthenticateUser", authenticatingUser));
-            const data = await sendPostRequest("https://localhost:7024/SagaApi/UserSaga/AuthenticateUser", authenticatingUser);
+            console.log('Ответ сервера:', sendPostRequest("https://localhost:7288/UserApi/User/AuthenticateUser", authenticatingUser));
+            const data = await sendPostRequest("https://localhost:7288/UserApi/User/AuthenticateUser", authenticatingUser);
             const { accessToken } = data;
             
             localStorage.setItem('accessToken', accessToken);
-            //goToMainform();
+            goToMainform();
         } catch (error) {
             console.error('Произошла ошибка:', error);
          }
@@ -66,7 +66,7 @@ interface LoginRequest{
             <div>
             <input type="password" placeholder="password" onChange={handleInputChange} name="password" value={authenticatingUser.password} />
             </div>
-            <button type="submit" onClick={goToMainform}>Войти</button>
+            <button type="submit">Войти</button>
             </div>
             <p className="message">Not registered? <a onClick={goToRegister}>Create an account</a></p>
           </form>

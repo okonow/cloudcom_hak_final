@@ -22,7 +22,12 @@
           "Port": 7056
         }
       ],
-      "UpstreamPathTemplate": "/SagaApi/{everything}"
+      "UpstreamPathTemplate": "/SagaApi/{everything}",
+      "AddHeadersToRequest": {
+        "Access-Control-Allow-Origin": [ "https://localhost:5173" ],
+        "Access-Control-Allow-Headers": [ "Origin, X-Requested-With, Content-Type, Accept" ],
+        "Access-Control-Allow-Methods": [ "GET", "POST", "PUT", "DELETE" ]
+      }
     },
     {
       // store service
@@ -62,6 +67,6 @@
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "http://localhost:7288"
+    "BaseUrl": "https://localhost:7288"
   }
 }

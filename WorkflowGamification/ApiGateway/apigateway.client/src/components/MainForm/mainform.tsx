@@ -5,8 +5,9 @@ import img1 from '../../assets/tasklist.png';
 import img2 from '../../assets/mytasks.png';
 import img3 from '../../assets/saloon.png';
 import img4 from '../../assets/home.png';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import '../../css/imagepanel.css';
+import { sendGetRequest } from '../sendrequest';
 
 
 export const MainForm = () => {
@@ -18,10 +19,26 @@ export const MainForm = () => {
     const gotoRating = () => navigate('/rating');
     const gotoStore = () => navigate('/store');
 
+        const fetchTasks = async () => {
+          try {
+            //const userId = localStorage.get('userId');
+            const accessToken = localStorage.getItem('accessToken');
+            const response = await sendGetRequest("https://localhost:7288/UserApi/User/GetUserInformation", accessToken);
+            console.log('Ответ сервера:', response);
+          } catch (error) {
+            console.error('Произошла ошибка:', error);
+          }
+        };
+      
+        // Вызов асинхронной функции для загрузки данных
+       
+
     return (
     <div className="mainform">
         <div className="navbar">
-
+            <div className='other-page' onClick={fetchTasks}>
+                <h1>getinfo</h1>
+            </div>
         </div>
     <div className="mainform-container">
         <div

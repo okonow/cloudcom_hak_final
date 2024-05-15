@@ -1,0 +1,209 @@
+name: dockercompose12618897410645979583
+services:
+  apiaccess:
+    build:
+      context: C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification
+      dockerfile: ApiAccess/Dockerfile
+    image: apiaccess
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "7024"
+        protocol: tcp
+  identityservicedb:
+    container_name: IdentityServiceDb
+    environment:
+      POSTGRES_DB: IdentityServiceDb
+      POSTGRES_PASSWORD: artur123
+      POSTGRES_USER: postgres
+    image: postgres
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5431
+        published: "5431"
+        protocol: tcp
+  rabbitmq:
+    hostname: my-rabbit
+    image: rabbitmq:3-management
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 15672
+        published: "15672"
+        protocol: tcp
+      - mode: ingress
+        target: 5672
+        published: "5672"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /var/lib/rabbitmq
+        target: /var/lib/rabbitmq
+        bind:
+          create_host_path: true
+  sagasapigateway:
+    build:
+      context: C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification
+      dockerfile: SagasApiGateway/Dockerfile
+    depends_on:
+      rabbitmq:
+        condition: service_started
+        required: true
+    image: sagasapigateway
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "7056"
+        protocol: tcp
+  servicessaga:
+    build:
+      context: C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification
+      dockerfile: Saga/ServicesSaga/Dockerfile
+    depends_on:
+      rabbitmq:
+        condition: service_started
+        required: true
+    image: servicessaga
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "7099"
+        protocol: tcp
+  storeservice:
+    build:
+      context: C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification
+      dockerfile: CompanyStoreService/CompanyStoreService/Dockerfile
+    depends_on:
+      rabbitmq:
+        condition: service_started
+        required: true
+      storeservicedb:
+        condition: service_started
+        required: true
+    environment:
+      DATABASE_URL: postgres://postgres:artur123@db:5431/StoreServiceDb
+    image: storeservice
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "7124"
+        protocol: tcp
+  storeservicedb:
+    container_name: StoreServiceDb
+    environment:
+      POSTGRES_DB: StoreServiceDb
+      POSTGRES_PASSWORD: artur123
+      POSTGRES_USER: postgres
+    image: postgres
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5433
+        published: "5433"
+        protocol: tcp
+  userauthenticationservice:
+    build:
+      context: C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification
+      dockerfile: UserAuthenticationService/UserAuthenticationService/Dockerfile
+    depends_on:
+      identityservicedb:
+        condition: service_started
+        required: true
+      rabbitmq:
+        condition: service_started
+        required: true
+    environment:
+      DATABASE_URL: postgres://postgres:artur123@db:5431/identityservicedb
+    image: userauthenticationservice
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "7256"
+        protocol: tcp
+  walletdb:
+    container_name: UserWalletDb
+    environment:
+      POSTGRES_DB: UserWalletDb
+      POSTGRES_PASSWORD: artur123
+      POSTGRES_USER: postgres
+    image: postgres
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5434
+        published: "5434"
+        protocol: tcp
+  walletservice:
+    build:
+      context: C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification
+      dockerfile: WalletService/WalletService/Dockerfile
+    depends_on:
+      rabbitmq:
+        condition: service_started
+        required: true
+      walletdb:
+        condition: service_started
+        required: true
+    environment:
+      DATABASE_URL: postgres://postgres:artur123@db:5434/UserWalletDb
+    image: walletservice
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "7195"
+        protocol: tcp
+  workspacedb:
+    container_name: WorkspaceDb
+    environment:
+      POSTGRES_DB: WorkspaceDb
+      POSTGRES_PASSWORD: artur123
+      POSTGRES_USER: postgres
+    image: postgres
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "5432"
+        protocol: tcp
+  workspaceservice:
+    build:
+      context: C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification
+      dockerfile: CompanyWorkspaceService/CompanyWorkspaceService/Dockerfile
+    depends_on:
+      rabbitmq:
+        condition: service_started
+        required: true
+      workspacedb:
+        condition: service_started
+        required: true
+    environment:
+      DATABASE_URL: postgres://postgres:artur123@db:5432/WorkspaceDb
+    image: workspaceservice
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "7057"
+        protocol: tcp
+networks:
+  default:
+    name: dockercompose12618897410645979583_default

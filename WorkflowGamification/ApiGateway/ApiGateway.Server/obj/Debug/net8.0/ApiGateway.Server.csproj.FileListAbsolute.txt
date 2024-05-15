@@ -51,3 +51,164 @@ D:\CS\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\refint\ApiGateway.Server.dll
 D:\CS\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.pdb
 D:\CS\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.genruntimeconfig.cache
 D:\CS\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ref\ApiGateway.Server.dll
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\appsettings.Development.json
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\appsettings.json
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Ocelot.json
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\spa.proxy.json
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\ApiGateway.Server.exe
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\ApiGateway.Server.deps.json
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\ApiGateway.Server.runtimeconfig.json
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\ApiGateway.Server.dll
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\ApiGateway.Server.pdb
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\FluentValidation.dll
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\IPAddressRange.dll
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.AspNetCore.SpaProxy.dll
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.Extensions.DiagnosticAdapter.dll
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Ocelot.dll
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.csproj.AssemblyReference.cache
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\spa.proxy.json
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.GeneratedMSBuildEditorConfig.editorconfig
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.AssemblyInfoInputs.cache
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.AssemblyInfo.cs
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.csproj.CoreCompileInputs.cache
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.MvcApplicationPartsAssemblyInfo.cs
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.MvcApplicationPartsAssemblyInfo.cache
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.sourcelink.json
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\staticwebassets.build.json
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\staticwebassets.development.json
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\staticwebassets\msbuild.ApiGateway.Server.Microsoft.AspNetCore.StaticWebAssets.props
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\staticwebassets\msbuild.build.ApiGateway.Server.props
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ApiGateway.Server.props
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ApiGateway.Server.props
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\staticwebassets.pack.json
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\scopedcss\bundle\ApiGateway.Server.styles.css
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGatew.DB5BD49B.Up2Date
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.dll
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\refint\ApiGateway.Server.dll
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.pdb
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.genruntimeconfig.cache
+D:\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ref\ApiGateway.Server.dll
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\appsettings.Development.json
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\appsettings.json
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Ocelot.json
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\spa.proxy.json
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\ApiGateway.Server.exe
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\ApiGateway.Server.deps.json
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\ApiGateway.Server.runtimeconfig.json
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\ApiGateway.Server.dll
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\ApiGateway.Server.pdb
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\FluentValidation.dll
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\IPAddressRange.dll
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.AspNetCore.SpaProxy.dll
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Ocelot.dll
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\projects\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\projects\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.csproj.AssemblyReference.cache
+C:\projects\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\spa.proxy.json
+C:\projects\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.AssemblyInfoInputs.cache
+C:\projects\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.AssemblyInfo.cs
+C:\projects\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.csproj.CoreCompileInputs.cache
+C:\projects\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.MvcApplicationPartsAssemblyInfo.cs
+C:\projects\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\projects\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\staticwebassets.build.json
+C:\projects\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\staticwebassets.development.json
+C:\projects\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\staticwebassets\msbuild.ApiGateway.Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\projects\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\staticwebassets\msbuild.build.ApiGateway.Server.props
+C:\projects\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ApiGateway.Server.props
+C:\projects\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ApiGateway.Server.props
+C:\projects\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\staticwebassets.pack.json
+C:\projects\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\scopedcss\bundle\ApiGateway.Server.styles.css
+C:\projects\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGatew.DB5BD49B.Up2Date
+C:\projects\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.dll
+C:\projects\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\refint\ApiGateway.Server.dll
+C:\projects\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.pdb
+C:\projects\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.genruntimeconfig.cache
+C:\projects\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ref\ApiGateway.Server.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\appsettings.Development.json
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\appsettings.json
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Ocelot.json
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\spa.proxy.json
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\ApiGateway.Server.exe
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\ApiGateway.Server.deps.json
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\ApiGateway.Server.runtimeconfig.json
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\ApiGateway.Server.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\ApiGateway.Server.pdb
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\FluentValidation.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\IPAddressRange.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.AspNetCore.SpaProxy.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Ocelot.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.csproj.AssemblyReference.cache
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\spa.proxy.json
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.AssemblyInfoInputs.cache
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.AssemblyInfo.cs
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.csproj.CoreCompileInputs.cache
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.MvcApplicationPartsAssemblyInfo.cs
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.sourcelink.json
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\staticwebassets.build.json
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\staticwebassets.development.json
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\staticwebassets\msbuild.ApiGateway.Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\staticwebassets\msbuild.build.ApiGateway.Server.props
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ApiGateway.Server.props
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ApiGateway.Server.props
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\staticwebassets.pack.json
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\scopedcss\bundle\ApiGateway.Server.styles.css
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGatew.DB5BD49B.Up2Date
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\refint\ApiGateway.Server.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.pdb
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ApiGateway.Server.genruntimeconfig.cache
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\ApiGateway\ApiGateway.Server\obj\Debug\net8.0\ref\ApiGateway.Server.dll

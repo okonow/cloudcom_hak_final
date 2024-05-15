@@ -36,7 +36,7 @@ export const Register = () =>
             console.log(creatingUser);
             try {
 
-              const result = await sendPostRequest("https://localhost:7024/SagaApi/UserSaga/CreateUser", creatingUser); // Отправляем данные на сервер
+              const result = await sendPostRequest("https://localhost:7288/SagaApi/UserSaga/CreateUser", creatingUser); // Отправляем данные на сервер
                // Получаем идентификатор пользователя
               localStorage.set('userId', result); // Сохраняем идентификатор пользователя в куки
               console.log('Response from server:', result); // Выводим результат в консоль

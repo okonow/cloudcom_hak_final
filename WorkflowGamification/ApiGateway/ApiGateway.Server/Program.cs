@@ -10,6 +10,20 @@ var configFilePath = "Ocelot.json";
 builder.Configuration.AddJsonFile(configFilePath);
 builder.Services.AddOcelot(builder.Configuration);
 
+
+var cors = "allow credentials";
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(cors, policy =>
+    {
+        policy.WithOrigins("https://localhost:5173")
+        .AllowAnyHeader()
+        .AllowCredentials()
+        .AllowAnyMethod();
+    });
+});
+
+
 var secret = builder.Configuration["JWT:Secret"]
                 ?? throw new InvalidOperationException("Secret not configured");
 
@@ -55,10 +69,10 @@ if (app.Environment.IsDevelopment())
 }
 
 await app.UseOcelot();
-
+app.UseCors(cors);
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapGet("/", () => "Hello World!");
+app.MapGet("/", () => "index.html");
 app.Run();

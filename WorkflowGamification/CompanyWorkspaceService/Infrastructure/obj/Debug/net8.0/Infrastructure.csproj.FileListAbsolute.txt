@@ -114,3 +114,43 @@ D:\cpp\Polygon\FullCompilation\WorkflowGamification\CompanyWorkspaceService\Infr
 D:\cpp\Polygon\FullCompilation\WorkflowGamification\CompanyWorkspaceService\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 D:\cpp\Polygon\FullCompilation\WorkflowGamification\CompanyWorkspaceService\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
 D:\cpp\Polygon\FullCompilation\WorkflowGamification\CompanyWorkspaceService\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\bin\Debug\net8.0\Application.dll
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\bin\Debug\net8.0\Application.pdb
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\bin\Debug\net8.0\Application.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\bin\Debug\net8.0\Application.pdb
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyWorkspaceService\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

@@ -66,3 +66,27 @@ D:\cpp\Polygon\FullCompilation\WorkflowGamification\CompanyStoreService\Domain\o
 D:\cpp\Polygon\FullCompilation\WorkflowGamification\CompanyStoreService\Domain\obj\Debug\net8.0\refint\Domain.dll
 D:\cpp\Polygon\FullCompilation\WorkflowGamification\CompanyStoreService\Domain\obj\Debug\net8.0\Domain.pdb
 D:\cpp\Polygon\FullCompilation\WorkflowGamification\CompanyStoreService\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyStoreService\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyStoreService\Domain\bin\Debug\net8.0\Domain.dll
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyStoreService\Domain\bin\Debug\net8.0\Domain.pdb
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyStoreService\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyStoreService\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyStoreService\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyStoreService\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyStoreService\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyStoreService\Domain\obj\Debug\net8.0\Domain.dll
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyStoreService\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyStoreService\Domain\obj\Debug\net8.0\Domain.pdb
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyStoreService\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyStoreService\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyStoreService\Domain\bin\Debug\net8.0\Domain.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyStoreService\Domain\bin\Debug\net8.0\Domain.pdb
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyStoreService\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyStoreService\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyStoreService\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyStoreService\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyStoreService\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyStoreService\Domain\obj\Debug\net8.0\Domain.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyStoreService\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyStoreService\Domain\obj\Debug\net8.0\Domain.pdb
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\CompanyStoreService\Domain\obj\Debug\net8.0\ref\Domain.dll

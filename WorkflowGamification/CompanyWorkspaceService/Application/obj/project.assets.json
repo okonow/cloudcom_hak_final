@@ -2338,19 +2338,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sartu\\.nuget\\packages\\": {}
+    "C:\\Users\\krian\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\cloudcom_hak_final\\WorkflowGamification\\CompanyWorkspaceService\\Application\\Application.csproj",
+      "projectUniqueName": "C:\\projects\\моё творение\\cloudcom_hak_final\\WorkflowGamification\\CompanyWorkspaceService\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "D:\\cloudcom_hak_final\\WorkflowGamification\\CompanyWorkspaceService\\Application\\Application.csproj",
-      "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
-      "outputPath": "D:\\cloudcom_hak_final\\WorkflowGamification\\CompanyWorkspaceService\\Application\\obj\\",
+      "projectPath": "C:\\projects\\моё творение\\cloudcom_hak_final\\WorkflowGamification\\CompanyWorkspaceService\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\krian\\.nuget\\packages\\",
+      "outputPath": "C:\\projects\\моё творение\\cloudcom_hak_final\\WorkflowGamification\\CompanyWorkspaceService\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\sartu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\krian\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2364,8 +2364,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\cloudcom_hak_final\\WorkflowGamification\\CompanyWorkspaceService\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\cloudcom_hak_final\\WorkflowGamification\\CompanyWorkspaceService\\Domain\\Domain.csproj"
+            "C:\\projects\\моё творение\\cloudcom_hak_final\\WorkflowGamification\\CompanyWorkspaceService\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\projects\\моё творение\\cloudcom_hak_final\\WorkflowGamification\\CompanyWorkspaceService\\Domain\\Domain.csproj"
             }
           }
         }

@@ -19,9 +19,9 @@ namespace ServicesSaga.Controllers
             var user = new User()
             {
                 Id = Guid.NewGuid(),
-                FristName = userDto.FristName,
+                FirstName = userDto.FristName,
                 MiddleName = userDto.MiddleName,
-                LatName = userDto.LatName,
+                LastName = userDto.LatName,
                 Email = userDto.Email,
                 Password = userDto.Password
             };

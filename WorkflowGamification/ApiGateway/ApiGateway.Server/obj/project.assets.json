@@ -1266,19 +1266,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sartu\\.nuget\\packages\\": {}
+    "C:\\Users\\krian\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\cloudcom_hak_final\\WorkflowGamification\\ApiGateway\\ApiGateway.Server\\ApiGateway.Server.csproj",
+      "projectUniqueName": "C:\\projects\\моё творение\\cloudcom_hak_final\\WorkflowGamification\\ApiGateway\\ApiGateway.Server\\ApiGateway.Server.csproj",
       "projectName": "ApiGateway.Server",
-      "projectPath": "D:\\cloudcom_hak_final\\WorkflowGamification\\ApiGateway\\ApiGateway.Server\\ApiGateway.Server.csproj",
-      "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
-      "outputPath": "D:\\cloudcom_hak_final\\WorkflowGamification\\ApiGateway\\ApiGateway.Server\\obj\\",
+      "projectPath": "C:\\projects\\моё творение\\cloudcom_hak_final\\WorkflowGamification\\ApiGateway\\ApiGateway.Server\\ApiGateway.Server.csproj",
+      "packagesPath": "C:\\Users\\krian\\.nuget\\packages\\",
+      "outputPath": "C:\\projects\\моё творение\\cloudcom_hak_final\\WorkflowGamification\\ApiGateway\\ApiGateway.Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\sartu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\krian\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

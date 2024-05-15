@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "Hash": "mSlzQXJSITRdiL3dWaZjX0PfKYMN4EVDSyTK+50dMcE=",
+  "Hash": "mA2RJybNU6wf75jhVca8fwaIzLh4XccimwViSjCKhXY=",
   "Source": "ApiGateway.Server",
   "BasePath": "_content/ApiGateway.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "D:\\CS\\ApiGateway\\apigateway.client\\apigateway.client.esproj",
+      "Identity": "C:\\projects\\моё творение\\cloudcom_hak_final\\WorkflowGamification\\ApiGateway\\apigateway.client\\apigateway.client.esproj",
       "Version": 2,
       "Source": "apigateway.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;Configuration;Platform;TargetFramework;RuntimeIdentifier;SelfContained",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;Configuration;Platform;TargetFramework;RuntimeIdentifier;SelfContained"
     }
   ],
   "DiscoveryPatterns": [],

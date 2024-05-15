@@ -68,3 +68,35 @@ D:\cpp\Polygon\FullCompilation\WorkflowGamification\Common\Contracts\obj\Debug\n
 D:\cpp\Polygon\FullCompilation\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\refint\Contracts.dll
 D:\cpp\Polygon\FullCompilation\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\Contracts.pdb
 D:\cpp\Polygon\FullCompilation\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\ref\Contracts.dll
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\bin\Debug\net8.0\Contracts.deps.json
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\bin\Debug\net8.0\Contracts.dll
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\bin\Debug\net8.0\Contracts.pdb
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\bin\Debug\net8.0\Dependencies.dll
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\bin\Debug\net8.0\Dependencies.pdb
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\Contracts.csproj.AssemblyReference.cache
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\Contracts.AssemblyInfoInputs.cache
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\Contracts.AssemblyInfo.cs
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\Contracts.csproj.CoreCompileInputs.cache
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\Contracts.sourcelink.json
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\Contracts.csproj.Up2Date
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\Contracts.dll
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\refint\Contracts.dll
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\Contracts.pdb
+C:\projects\shit\cloudcom_hak_final\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\ref\Contracts.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\bin\Debug\net8.0\Contracts.deps.json
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\bin\Debug\net8.0\Contracts.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\bin\Debug\net8.0\Contracts.pdb
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\bin\Debug\net8.0\Dependencies.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\bin\Debug\net8.0\Dependencies.pdb
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\Contracts.csproj.AssemblyReference.cache
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\Contracts.AssemblyInfoInputs.cache
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\Contracts.AssemblyInfo.cs
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\Contracts.csproj.CoreCompileInputs.cache
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\Contracts.sourcelink.json
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\Contracts.csproj.Up2Date
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\Contracts.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\refint\Contracts.dll
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\Contracts.pdb
+C:\projects\моё творение\cloudcom_hak_final\WorkflowGamification\Common\Contracts\obj\Debug\net8.0\ref\Contracts.dll
