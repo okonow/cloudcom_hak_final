@@ -69,32 +69,32 @@ export const AllTasks: React.FC = () => {
   //     console.error('Ошибка при получении данных:', error);
   //   }
   // };
-  const tasks1: Task[] = [
-    {
-      id: "1",
-      title: "Complete project documentation",
-      description: "Write the final sections of the project documentation including summaries and conclusions.",
-      IsFinished: false
-    },
-    {
-      id: "2",
-      title: "Review codebase",
-      description: "Go through the new commits and review for any potential bugs or improvements.",
-      IsFinished: true
-    },
-    {
-      id: "3",
-      title: "Team meeting",
-      description: "Organize a weekly team meeting to discuss project progress and distribute new tasks.",
-      IsFinished: false
-    },
-    {
-      id: "4",
-      title: "Update dependencies",
-      description: "Check for outdated dependencies in the project and update them.",
-      IsFinished: true
-    }
-  ];
+  // const tasks1: Task[] = [
+  //   {
+  //     id: "1",
+  //     title: "Complete project documentation",
+  //     description: "Write the final sections of the project documentation including summaries and conclusions.",
+  //     IsFinished: false
+  //   },
+  //   {
+  //     id: "2",
+  //     title: "Review codebase",
+  //     description: "Go through the new commits and review for any potential bugs or improvements.",
+  //     IsFinished: true
+  //   },
+  //   {
+  //     id: "3",
+  //     title: "Team meeting",
+  //     description: "Organize a weekly team meeting to discuss project progress and distribute new tasks.",
+  //     IsFinished: false
+  //   },
+  //   {
+  //     id: "4",
+  //     title: "Update dependencies",
+  //     description: "Check for outdated dependencies in the project and update them.",
+  //     IsFinished: true
+  //   }
+  // ];
 
   return (
     
@@ -112,7 +112,7 @@ export const AllTasks: React.FC = () => {
           </div>
         </div>
         <div className="tasklist">
-          {tasks1.map((task) => (
+          {tasks.map((task) => (
             <TaskCard key={task.id} task={task} />
           ))}
 

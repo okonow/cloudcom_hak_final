@@ -66,6 +66,29 @@ const sendPatchRequestWithAccessWithId = async (url: string, body: any, accessTo
     }
 };
 
+export const sendPutRequest = async (url: string, body: any, accessToken: any) => {
+    try {
+        const response = await fetch(url, {
+            method: "PUT",
+            credentials: 'include',
+            headers: {  
+                'Content-Type': 'application/json',
+                "Authorization": `Bearer ${accessToken}`
+            },
+            body: JSON.stringify(body)
+        });
+        
+        if (response.ok) {
+            return await response.json();
+        } else {
+            throw new Error('Ошибка при выполнении запроса');
+        }
+    } catch (error) {
+        console.error('Ошибка:', error);
+        throw new Error('Произошла ошибка при обращении к серверу');
+    }
+};
+
 
 export const sendGetRequest = async (url: string, accessToken: any) => {
     try {
