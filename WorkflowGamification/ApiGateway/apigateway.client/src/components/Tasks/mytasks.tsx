@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import {useState, useEffect, ReactNode} from'react';
 import { MyTaskCard } from './mytaskcard';
 import {  sendGetRequestWithId } from '../sendrequest';
+import { Footer } from '../footer';
 
 interface Task {
   id: string;
@@ -61,11 +62,25 @@ export const MyTasks = () =>{
       title: "Update dependencies",
       description: "Check for outdated dependencies in the project and update them.",
       IsFinished: true
+    },
+    {
+      id: "3",
+      title: "Team meeting",
+      description: "Organize a weekly team meeting to discuss project progress and distribute new tasks.",
+      IsFinished: false
+    },
+    {
+      id: "4",
+      title: "Update dependencies",
+      description: "Check for outdated dependencies in the project and update them.",
+      IsFinished: true
     }
   ];
 
     return (
-      <div className='alltasks-background'>
+      <div className='alltasks-wrapper'>
+    <div className='alltasks-background'>
+      </div>
         <div className='alltasks-container'>
           <div className='navbar'>
               <div className='exit-icon' onClick={gotoMainForm}>
@@ -86,6 +101,7 @@ export const MyTasks = () =>{
               ))}
           </div>
         </div>
+        <Footer />
       </div>
       
     );

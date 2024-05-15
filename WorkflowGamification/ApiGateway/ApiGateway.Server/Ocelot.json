@@ -10,7 +10,12 @@
           "Port": 7256
         }
       ],
-      "UpstreamPathTemplate": "/UserApi/{everything}"
+      "UpstreamPathTemplate": "/UserApi/{everything}",
+      "AddHeadersToRequest": {
+        "Access-Control-Allow-Origin": [ "https://localhost:5173" ],
+        "Access-Control-Allow-Headers": [ "Origin, X-Requested-With, Content-Type, Accept" ],
+        "Access-Control-Allow-Methods": [ "GET", "POST", "PUT", "DELETE", "PATCH"]
+      }
     },
     {
       // saga service
@@ -39,7 +44,12 @@
           "Port": 7124
         }
       ],
-      "UpstreamPathTemplate": "/StoreApi/{everything}"
+      "UpstreamPathTemplate": "/StoreApi/{everything}",
+      "AddHeadersToRequest": {
+        "Access-Control-Allow-Origin": [ "https://localhost:5173" ],
+        "Access-Control-Allow-Headers": [ "Origin, X-Requested-With, Content-Type, Accept" ],
+        "Access-Control-Allow-Methods": [ "GET", "POST", "PUT", "DELETE", "PATCH" ]
+      }
     },
     {
       // workspace service
@@ -51,7 +61,12 @@
           "Port": 7057
         }
       ],
-      "UpstreamPathTemplate": "/WorkspaceApi/{everything}"
+      "UpstreamPathTemplate": "/WorkspaceApi/{everything}",
+      "AddHeadersToRequest": {
+        "Access-Control-Allow-Origin": [ "https://localhost:5173" ],
+        "Access-Control-Allow-Headers": [ "Origin, X-Requested-With, Content-Type, Accept" ],
+        "Access-Control-Allow-Methods": [ "GET", "POST", "PUT", "DELETE", "PATCH" ]
+      }
     },
     {
       // wallet service
@@ -63,7 +78,12 @@
           "Port": 7195
         }
       ],
-      "UpstreamPathTemplate": "/WalletApi/{everything}"
+      "UpstreamPathTemplate": "/WalletApi/{everything}",
+      "AddHeadersToRequest": {
+        "Access-Control-Allow-Origin": [ "https://localhost:5173" ],
+        "Access-Control-Allow-Headers": [ "Origin, X-Requested-With, Content-Type, Accept" ],
+        "Access-Control-Allow-Methods": [ "GET", "POST", "PUT", "DELETE", "PATCH" ]
+      }
     }
   ],
   "GlobalConfiguration": {

@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\projects\\\u043C\u043E\u0451 \u0442\u0432\u043E\u0440\u0435\u043D\u0438\u0435\\cloudcom_hak_final\\WorkflowGamification\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0DCCF3A9-A466-4A13-91A0-9F381D6B2C14}|ApiGateway\\ApiGateway.Server\\ApiGateway.Server.csproj|c:\\projects\\\u043C\u043E\u0451 \u0442\u0432\u043E\u0440\u0435\u043D\u0438\u0435\\cloudcom_hak_final\\workflowgamification\\apigateway\\apigateway.server\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0DCCF3A9-A466-4A13-91A0-9F381D6B2C14}|ApiGateway\\ApiGateway.Server\\ApiGateway.Server.csproj|solutionrelative:apigateway\\apigateway.server\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{DA758DBC-777F-4FC6-97CC-932B2D592C14}|UserAuthenticationService\\UserAuthenticationService\\UserAuthenticationService.csproj|c:\\projects\\\u043C\u043E\u0451 \u0442\u0432\u043E\u0440\u0435\u043D\u0438\u0435\\cloudcom_hak_final\\workflowgamification\\userauthenticationservice\\userauthenticationservice\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA758DBC-777F-4FC6-97CC-932B2D592C14}|UserAuthenticationService\\UserAuthenticationService\\UserAuthenticationService.csproj|solutionrelative:userauthenticationservice\\userauthenticationservice\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA758DBC-777F-4FC6-97CC-932B2D592C14}|UserAuthenticationService\\UserAuthenticationService\\UserAuthenticationService.csproj|c:\\projects\\\u043C\u043E\u0451 \u0442\u0432\u043E\u0440\u0435\u043D\u0438\u0435\\cloudcom_hak_final\\workflowgamification\\userauthenticationservice\\userauthenticationservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA758DBC-777F-4FC6-97CC-932B2D592C14}|UserAuthenticationService\\UserAuthenticationService\\UserAuthenticationService.csproj|solutionrelative:userauthenticationservice\\userauthenticationservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA758DBC-777F-4FC6-97CC-932B2D592C14}|UserAuthenticationService\\UserAuthenticationService\\UserAuthenticationService.csproj|c:\\projects\\\u043C\u043E\u0451 \u0442\u0432\u043E\u0440\u0435\u043D\u0438\u0435\\cloudcom_hak_final\\workflowgamification\\userauthenticationservice\\userauthenticationservice\\common\\interfaces\\identity\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA758DBC-777F-4FC6-97CC-932B2D592C14}|UserAuthenticationService\\UserAuthenticationService\\UserAuthenticationService.csproj|solutionrelative:userauthenticationservice\\userauthenticationservice\\common\\interfaces\\identity\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DCCF3A9-A466-4A13-91A0-9F381D6B2C14}|ApiGateway\\ApiGateway.Server\\ApiGateway.Server.csproj|c:\\projects\\\u043C\u043E\u0451 \u0442\u0432\u043E\u0440\u0435\u043D\u0438\u0435\\cloudcom_hak_final\\workflowgamification\\apigateway\\apigateway.server\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0DCCF3A9-A466-4A13-91A0-9F381D6B2C14}|ApiGateway\\ApiGateway.Server\\ApiGateway.Server.csproj|solutionrelative:apigateway\\apigateway.server\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1DF3378B-6E9B-4B06-996A-128491188559}|SagasApiGateway\\SagasApiGateway.csproj|c:\\projects\\\u043C\u043E\u0451 \u0442\u0432\u043E\u0440\u0435\u043D\u0438\u0435\\cloudcom_hak_final\\workflowgamification\\sagasapigateway\\controllers\\usersagacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,20 +58,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\projects\\\u043C\u043E\u0451 \u0442\u0432\u043E\u0440\u0435\u043D\u0438\u0435\\cloudcom_hak_final\\WorkflowGamification\\UserAuthenticationService\\UserAuthenticationService\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "UserAuthenticationService\\UserAuthenticationService\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\projects\\\u043C\u043E\u0451 \u0442\u0432\u043E\u0440\u0435\u043D\u0438\u0435\\cloudcom_hak_final\\WorkflowGamification\\UserAuthenticationService\\UserAuthenticationService\\Controllers\\UserController.cs",
-              "RelativeToolTip": "UserAuthenticationService\\UserAuthenticationService\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAFgAAAAAAAAAAAAkwGQAAAAMAAAA",
+              "DocumentIndex": 0,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\projects\\\u043C\u043E\u0451 \u0442\u0432\u043E\u0440\u0435\u043D\u0438\u0435\\cloudcom_hak_final\\WorkflowGamification\\UserAuthenticationService\\UserAuthenticationService\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "UserAuthenticationService\\UserAuthenticationService\\Controllers\\RoleController.cs",
+              "ToolTip": "C:\\projects\\\u043C\u043E\u0451 \u0442\u0432\u043E\u0440\u0435\u043D\u0438\u0435\\cloudcom_hak_final\\WorkflowGamification\\UserAuthenticationService\\UserAuthenticationService\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "UserAuthenticationService\\UserAuthenticationService\\Controllers\\RoleController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwB4AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T15:55:28.49Z",
+              "WhenOpened": "2024-05-15T22:19:24.723Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "IRoleService.cs",
+              "DocumentMoniker": "C:\\projects\\\u043C\u043E\u0451 \u0442\u0432\u043E\u0440\u0435\u043D\u0438\u0435\\cloudcom_hak_final\\WorkflowGamification\\UserAuthenticationService\\UserAuthenticationService\\Common\\Interfaces\\Identity\\IRoleService.cs",
+              "RelativeDocumentMoniker": "UserAuthenticationService\\UserAuthenticationService\\Common\\Interfaces\\Identity\\IRoleService.cs",
+              "ToolTip": "C:\\projects\\\u043C\u043E\u0451 \u0442\u0432\u043E\u0440\u0435\u043D\u0438\u0435\\cloudcom_hak_final\\WorkflowGamification\\UserAuthenticationService\\UserAuthenticationService\\Common\\Interfaces\\Identity\\IRoleService.cs",
+              "RelativeToolTip": "UserAuthenticationService\\UserAuthenticationService\\Common\\Interfaces\\Identity\\IRoleService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T22:16:00.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UserSagaController.cs",
               "DocumentMoniker": "C:\\projects\\\u043C\u043E\u0451 \u0442\u0432\u043E\u0440\u0435\u043D\u0438\u0435\\cloudcom_hak_final\\WorkflowGamification\\SagasApiGateway\\Controllers\\UserSagaController.cs",
               "RelativeDocumentMoniker": "SagasApiGateway\\Controllers\\UserSagaController.cs",
@@ -75,12 +92,11 @@
               "RelativeToolTip": "SagasApiGateway\\Controllers\\UserSagaController.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAAwEAAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T15:06:55.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T15:06:55.47Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\projects\\\u043C\u043E\u0451 \u0442\u0432\u043E\u0440\u0435\u043D\u0438\u0435\\cloudcom_hak_final\\WorkflowGamification\\SagasApiGateway\\Program.cs",
               "RelativeDocumentMoniker": "SagasApiGateway\\Program.cs",
@@ -88,12 +104,11 @@
               "RelativeToolTip": "SagasApiGateway\\Program.cs",
               "ViewState": "AQIAADwAAAAAAAAAAAAAAEoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T15:03:47.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T15:03:47.495Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\projects\\\u043C\u043E\u0451 \u0442\u0432\u043E\u0440\u0435\u043D\u0438\u0435\\cloudcom_hak_final\\WorkflowGamification\\ApiGateway\\ApiGateway.Server\\Program.cs",
               "RelativeDocumentMoniker": "ApiGateway\\ApiGateway.Server\\Program.cs",
@@ -101,21 +116,19 @@
               "RelativeToolTip": "ApiGateway\\ApiGateway.Server\\Program.cs",
               "ViewState": "AQIAADwAAAAAAAAAAAAAAEcAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T14:39:43.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T14:39:43.872Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Ocelot.json",
               "DocumentMoniker": "C:\\projects\\\u043C\u043E\u0451 \u0442\u0432\u043E\u0440\u0435\u043D\u0438\u0435\\cloudcom_hak_final\\WorkflowGamification\\ApiGateway\\ApiGateway.Server\\Ocelot.json",
               "RelativeDocumentMoniker": "ApiGateway\\ApiGateway.Server\\Ocelot.json",
               "ToolTip": "C:\\projects\\\u043C\u043E\u0451 \u0442\u0432\u043E\u0440\u0435\u043D\u0438\u0435\\cloudcom_hak_final\\WorkflowGamification\\ApiGateway\\ApiGateway.Server\\Ocelot.json",
               "RelativeToolTip": "ApiGateway\\ApiGateway.Server\\Ocelot.json",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAABAAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEQAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-15T14:19:29.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T14:19:29.485Z"
             }
           ]
         }

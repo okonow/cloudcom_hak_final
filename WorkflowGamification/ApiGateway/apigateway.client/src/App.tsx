@@ -15,6 +15,7 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Login />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/mainform" element={<MainForm />} />
         <Route path="/alltasks" element={<AllTasks />} />

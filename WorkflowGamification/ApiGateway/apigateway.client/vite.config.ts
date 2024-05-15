@@ -35,7 +35,21 @@ const target = env.ASPNETCORE_HTTPS_PORT ? `https://localhost:${env.ASPNETCORE_H
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    plugins: [plugin()],
+    plugins: [plugin(),
+        {
+            name: 'configure-html',
+            transformIndexHtml: {
+                enforce: 'pre',
+                transform: (html) =>
+                    html.replace(
+                        /<title>(.*?)<\/title>/,
+                        `<title>GameCorporate</title>`
+                    ).replace(
+                        /<link(.*)>/,
+                        `<link rel="icon" href="/public/cat1.png" />`
+                    ),
+            },
+        },],
     resolve: {
         alias: {
             '@': fileURLToPath(new URL('./src', import.meta.url))
