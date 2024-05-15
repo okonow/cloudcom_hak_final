@@ -1,37 +1,58 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { sendPostRequestWithAccess, sendRefreshTokenRequest } from '../sendrequest';
 
 interface Department {
-  id: number;
-  name: string;
+    departmentName: string, 
+    departmentDescription: string,
+    directorId: string,
+    departmentEmployeesId: string[],
 }
 
-const initialDepartments: Department[] = [
-  { id: 1, name: 'Разработка' }
-];
-
 export const AdminDepartments: React.FC = () => {
-  const [departments, setDepartments] = useState({ 
-    UserId: '', 
-    RoleName: '' 
+
+  const [departments, setDepartments] = useState<Department[]>([]);
+  const [newDepartment, setNewDepartment] = useState({ 
+    departmentName: '', 
+    departmentDescription: '',
+    directorId: '',
+    departmentEmployeesId: [],
   });
-  // {
-  //   "departmentName": "string",
-  //   "departmentDescription": "string",
-  //   "directorId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  //   "departmentEmployeesId": [
-  //     "3fa85f64-5717-4562-b3fc-2c963f66afa6"
-  //   ]
-  // }
+
+  useEffect(() => {
+    sendRefreshTokenRequest();
+  }, []);
+
+  const handleInputChangeDepartment = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setNewDepartment({ ...newDepartment, [e.target.name]: e.target.value });
+  };
+
+  const handleNewDepartment = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    console.log(newDepartment);
+    try {
+        const accessToken = localStorage.getItem('accessToken');
+        const response = sendPostRequestWithAccess("https://localhost:7288/UserApi/User/AuthenticateUser", newDepartment, accessToken)
+        console.log('Ответ сервера:', response);
+    } catch (error) {
+        console.error('Произошла ошибка:', error);
+     }
+ };
+
+
+ 
 
   return (
     <div>
-      <div className='create-department'>
-      <input type="text" name="de" placeholder="Имя" value={newEmployee.firstName} onChange={handleInputChange} />
-        </div>
+      <form onSubmit={handleNewDepartment} className='create-department'>
+      <input type="text" name="departmentName" placeholder="название департамента" value={newDepartment.departmentName} onChange={handleInputChangeDepartment} />
+      <input type="text" name="departmentDescription" placeholder="описание" value={newDepartment.departmentDescription} onChange={handleInputChangeDepartment} />
+      <input type="text" name="directorId" placeholder="id директора" value={newDepartment.directorId} onChange={handleInputChangeDepartment} />
+      <button type="submit">Добавить департамент</button>
+        </form>
       <h1>Департаменты</h1>
       <ul>
         {departments.map((department) => (
-          <li key={department.id}>{department.name}</li>
+          <li key={department.departmentName}>{department.departmentName}</li>
         ))}
       </ul>
     </div>

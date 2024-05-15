@@ -11,6 +11,7 @@
     flex: 1 1 50%; /* Дает каждому контейнеру 50% ширины и высоты относительно контейнера */
     position: relative;
     word-break: keep-all;
+    
   }
   
   .image-container img {

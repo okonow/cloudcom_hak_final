@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using UserAuthenticationService.Common.Constants;
 using UserAuthenticationService.Common.Exceptions;
 using UserAuthenticationService.Common.Interfaces.Identity;
 using UserAuthenticationService.Data;
@@ -16,10 +18,22 @@ namespace UserAuthenticationService.Services
             return result.Succeeded;
         }
 
+        [Authorize]
+        public async Task<string> GetUserRoleAsync(string userId)
+        {
+            var user = await _userManager.FindByIdAsync(userId)
+                ?? throw new NullEntityException(nameof(ApplicationUser));
+
+            var roles = await _userManager.GetRolesAsync(user)
+                ?? throw new NullEntityException(nameof(Roles));
+
+            return roles[0];
+        }
+
         public async Task<bool> AddRoleToUserAsync(string userId, string role)
         {
             var user = await _userManager.FindByIdAsync(userId)
-              ?? throw new NullEntityException(nameof(ApplicationUser));
+                ?? throw new NullEntityException(nameof(ApplicationUser));
 
             var isExist = await _roleManager.RoleExistsAsync(role);
 

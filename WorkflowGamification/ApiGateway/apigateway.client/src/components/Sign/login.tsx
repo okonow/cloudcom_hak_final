@@ -3,6 +3,7 @@ import '../../css/sign.css';
 import { useNavigate } from'react-router-dom';
 import '../../assets/login-pictures/login-img.png';
 import { sendPostRequest } from '../../components/sendrequest';
+import { Footer } from '../footer';
 
 
 interface LoginRequest{
@@ -48,7 +49,7 @@ interface LoginRequest{
      };
   
       return (
-        
+        <div>
         <div className="sign-container">
         <div className="login-register-background">
           <img src="src\assets\login-pictures\login-img-background.jpg" alt="Background" />
@@ -70,7 +71,11 @@ interface LoginRequest{
             </div>
             <p className="message">Not registered? <a onClick={goToRegister}>Create an account</a></p>
           </form>
+          
         </div>
+        
+      </div>
+      <Footer/>
       </div>
       );
   }

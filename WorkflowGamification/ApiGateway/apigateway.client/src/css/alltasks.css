@@ -3,17 +3,30 @@
   --opacity-color: rgba(255, 255, 255, 0.5);
 }
 
-.alltasks-container {
+.alltasks-wrapper {
   height: 100%;
+  position: relative;
+}
+
+.alltasks-container {
   display: flex;
   flex-flow: column;
   font-family: var(--font);
 }
 
 .alltasks-background {
-  height: 500vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-height: 100vh;
+  height: 100%;
   background-repeat: repeat;
-  background-image: url(../assets/background3.png);
+  background-image: url(../assets/background.png);
+  background-size: cover; /* Масштабируем фоновое изображение для заполнения всего контейнера */
+  z-index: -1;
+  background-attachment: fixed;
 }
 
 .alltasks-container .navbar {
@@ -53,6 +66,8 @@
   position: relative;
   height: 10vh;
 }
+
+
 
 .alltasks-container .navbar .exit-icon img:hover {
   
@@ -113,7 +128,7 @@
 .alltasks-container .tasklist .taskcard .visible-items {
   display: flex;
   flex-flow:row;
-  width: 100%;
+  width: 90%;
   align-items: center;
   height:100%;
   padding-left: 5vw;

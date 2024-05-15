@@ -14,6 +14,43 @@
    
   }
 
+  .mainform .navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    background-color: var(--opacity-color);
+    
+  }
+  
+  .mainform .navbar .now-page h1, 
+  .mainform .navbar .other-page h1 { 
+    padding-inline: 10px;
+    padding-block: 3vh;
+    margin: 0;
+  
+  }
+  
+  .mainform .navbar .now-page,
+  .mainform .navbar .other-page :hover 
+  {
+    background-color: var(--opacity-color);
+    cursor: pointer;
+  }
+  
+  .mainform .navbar .exit-icon :hover {
+    cursor: pointer;
+    
+  }
+  
+  
+  
+  .mainform .navbar .exit-icon img {
+    position: relative;
+    height: 10vh;
+  }
+
 .mainform {
     width: 100vw;
     height: 100vh;
@@ -25,8 +62,6 @@
 
 
 .mainform img {
-    width:250px;
-    height:250px;
     display: block;
 }
 

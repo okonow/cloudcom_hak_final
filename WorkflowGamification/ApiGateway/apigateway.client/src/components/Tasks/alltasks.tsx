@@ -3,7 +3,6 @@ import { useNavigate } from'react-router-dom';
 import '../../css/alltasks.css';
 import { TaskCard } from './alltaskcard';
 import { sendGetRequest } from '../sendrequest';
-import Cookies from 'js-cookie';
 
 interface Task {
   id: string;
@@ -97,8 +96,9 @@ export const AllTasks: React.FC = () => {
   // ];
 
   return (
-    
+    <div className='alltasks-wrapper'>
     <div className='alltasks-background'>
+      </div>
       <div className='alltasks-container'>
         <div className='navbar'>
           <div className='exit-icon' onClick={gotoMainForm}>

@@ -1,5 +1,6 @@
 import '../../css/mainform.css';
 import '../../css/sign.css';
+import '../../css/alltasks.css';
 import { useNavigate } from'react-router-dom';
 import img1 from '../../assets/tasklist.png';
 import img2 from '../../assets/mytasks.png';
@@ -8,6 +9,7 @@ import img4 from '../../assets/home.png';
 import React, { useEffect, useState } from 'react';
 import '../../css/imagepanel.css';
 import { sendGetRequest } from '../sendrequest';
+import {Footer} from '../footer';
 
 
 export const MainForm = () => {
@@ -18,6 +20,20 @@ export const MainForm = () => {
     const gotoMyTasks = () => navigate('/mytasks');
     const gotoRating = () => navigate('/rating');
     const gotoStore = () => navigate('/store');
+
+    useEffect(() => {
+        const checkRole = async () => {
+            try {
+                //const userId = localStorage.get('userId');
+                const accessToken = localStorage.getItem('accessToken');
+                const response = await sendGetRequest("https://localhost:7288/UserApi/Role/GetUserRole", accessToken);
+                console.log('Ответ сервера:', response);
+              } catch (error) {
+                console.error('Произошла ошибка:', error);
+              }
+        };
+        checkRole();
+    }, []);
 
         const fetchTasks = async () => {
           try {
@@ -34,8 +50,12 @@ export const MainForm = () => {
        
 
     return (
+        <div className='mainform-background'>
     <div className="mainform">
         <div className="navbar">
+            <div className='exit-icon'>
+                <img src="src\assets\logout.png" alt=""/>
+            </div>
             <div className='other-page' onClick={fetchTasks}>
                 <h1>getinfo</h1>
             </div>
@@ -82,6 +102,9 @@ export const MainForm = () => {
     </div>
         </div>
     </div>
+    <Footer/>
+    </div>
+
     </div>
     );
     };

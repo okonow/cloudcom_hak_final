@@ -6,6 +6,20 @@
   --font: Courier;
   --text-color: rgba(255, 255, 255, 0.8);
 }
+
+::-webkit-scrollbar {
+  width: 5px; 
+  height: 5px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 255, 0); /* цвет кнопки скроллбара */
+  border-radius: 10px; /* радиус закругления кнопки скроллбара */
+  width: 50px; /* ширина кнопки скроллбара */
+  height: 10px; /* высота кнопки скроллбара */
+}
+
+
 /*login form*/
 
 p {
