@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\WorkflowGamificationWebApp.Server.props" />
-</Project>

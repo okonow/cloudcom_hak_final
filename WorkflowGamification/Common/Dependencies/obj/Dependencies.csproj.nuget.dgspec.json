@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj": {}
+    "D:\\cloudcom_hak_final\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj": {}
   },
   "projects": {
-    "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj": {
+    "D:\\cloudcom_hak_final\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj",
+        "projectUniqueName": "D:\\cloudcom_hak_final\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj",
         "projectName": "Dependencies",
-        "projectPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj",
-        "packagesPath": "C:\\Users\\krian\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\Common\\Dependencies\\obj\\",
+        "projectPath": "D:\\cloudcom_hak_final\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj",
+        "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
+        "outputPath": "D:\\cloudcom_hak_final\\WorkflowGamification\\Common\\Dependencies\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\krian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sartu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dQxLoGIzpmAIoBuPQwXy98urzEFsHQlgsEbulRZmiZI2B1M4URoFFHDOvVivPDnPxUbHMUZ7HGwvU0nm91KaIA==",
+  "dgSpecHash": "TUv1R+YYM4NCAMv1AOsZQiDdXN5PJcf/iZtUdJsNMDEvJdcX8Dhx+hEgSXXeDSQpjGsnVe72OtoKvwk2WBbx4g==",
   "success": true,
-  "projectFilePath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

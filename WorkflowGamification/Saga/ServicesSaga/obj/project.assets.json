@@ -2184,19 +2184,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\krian\\.nuget\\packages\\": {}
+    "C:\\Users\\sartu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\Saga\\ServicesSaga\\ServicesSaga.csproj",
+      "projectUniqueName": "D:\\cloudcom_hak_final\\WorkflowGamification\\Saga\\ServicesSaga\\ServicesSaga.csproj",
       "projectName": "ServicesSaga",
-      "projectPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\Saga\\ServicesSaga\\ServicesSaga.csproj",
-      "packagesPath": "C:\\Users\\krian\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\Saga\\ServicesSaga\\obj\\",
+      "projectPath": "D:\\cloudcom_hak_final\\WorkflowGamification\\Saga\\ServicesSaga\\ServicesSaga.csproj",
+      "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
+      "outputPath": "D:\\cloudcom_hak_final\\WorkflowGamification\\Saga\\ServicesSaga\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\krian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sartu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2210,11 +2210,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\Common\\Contracts\\Contracts.csproj": {
-              "projectPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\Common\\Contracts\\Contracts.csproj"
+            "D:\\cloudcom_hak_final\\WorkflowGamification\\Common\\Contracts\\Contracts.csproj": {
+              "projectPath": "D:\\cloudcom_hak_final\\WorkflowGamification\\Common\\Contracts\\Contracts.csproj"
             },
-            "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj": {
-              "projectPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj"
+            "D:\\cloudcom_hak_final\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj": {
+              "projectPath": "D:\\cloudcom_hak_final\\WorkflowGamification\\Common\\Dependencies\\Dependencies.csproj"
             }
           }
         }

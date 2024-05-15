@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Application\\Application.csproj": {}
+    "D:\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Application\\Application.csproj": {
+    "D:\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\krian\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Application\\obj\\",
+        "projectPath": "D:\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
+        "outputPath": "D:\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\krian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sartu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj"
+              "D:\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj"
               }
             }
           }
@@ -82,17 +82,17 @@
         }
       }
     },
-    "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj": {
+    "D:\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\krian\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Domain\\obj\\",
+        "projectPath": "D:\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
+        "outputPath": "D:\\cloudcom_hak_final\\WorkflowGamification\\CompanyStoreService\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\krian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sartu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

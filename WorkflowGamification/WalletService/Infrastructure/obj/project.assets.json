@@ -2431,19 +2431,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\krian\\.nuget\\packages\\": {}
+    "C:\\Users\\sartu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\WalletService\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "D:\\cloudcom_hak_final\\WorkflowGamification\\WalletService\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\WalletService\\Infrastructure\\Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\krian\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\WalletService\\Infrastructure\\obj\\",
+      "projectPath": "D:\\cloudcom_hak_final\\WorkflowGamification\\WalletService\\Infrastructure\\Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
+      "outputPath": "D:\\cloudcom_hak_final\\WorkflowGamification\\WalletService\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\krian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sartu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2457,11 +2457,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\WalletService\\Application\\Application.csproj": {
-              "projectPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\WalletService\\Application\\Application.csproj"
+            "D:\\cloudcom_hak_final\\WorkflowGamification\\WalletService\\Application\\Application.csproj": {
+              "projectPath": "D:\\cloudcom_hak_final\\WorkflowGamification\\WalletService\\Application\\Application.csproj"
             },
-            "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\WalletService\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\projects\\cloudcom_hak_final\\WorkflowGamification\\WalletService\\Domain\\Domain.csproj"
+            "D:\\cloudcom_hak_final\\WorkflowGamification\\WalletService\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\cloudcom_hak_final\\WorkflowGamification\\WalletService\\Domain\\Domain.csproj"
             }
           }
         }
